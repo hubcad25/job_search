@@ -1,0 +1,721 @@
+# Produits et projets construits. `cadre` = dans quel contexte (client, opubliq, perso, employeur).
+# `statut` : actif, archive (statique, consultable), pause, hors_ligne. Statut en ligne vérifié le 2026-10-23.
+
+# --- Pro : Opubliq et contrats ---
+
+- id: proj-medaillon-plateforme
+  titre: Plateforme de sondages en libre-service (Médaillon)
+  cadre: client
+  experience: exp-medaillon-ciusss
+  description: "Développée pendant le mandat CIUSSS (févr.-avr. 2026) ; utilisée par Médaillon de façon autonome."
+  usage:
+    - "Mandat CIUSSS : 5 sondages, tous lancés sur la plateforme."
+    - "Médaillon l'a utilisée seule pour 1 sondage dans un autre projet."
+    - "À venir : CIUSSS phase 2 (2e mandat) sur la plateforme, avec ajout de fonctions de panel web continu (collecte de courriels, consultations ponctuelles)."
+  periode: {debut: 2026-02, fin: null}
+  techno: ["TypeScript (monorepo pnpm)", "SST (AWS) : API, ETL, courriel, stockage, frontend", "stages dev et prod"]
+  pratiques: [journal des décisions d'architecture]
+  role: responsable
+  statut: actif
+  montrable: captures  # privé
+  facettes: [sondages, techno]
+  poids: fort
+  validation: valide
+
+- id: proj-atlas-opubliq
+  titre: L'Atlas Opubliq (plateforme d'exploration et d'analyse de sondages)
+  cadre: opubliq
+  experience: exp-opubliq
+  role: responsable  # seul, au sein d'Opubliq
+  origine: "Idée née de l'index de questions de sondage construit sur Azure AI Search pendant le stage à la Ville de Québec (voir exp-vdq-stage)."
+  description: "Réunit quatre types de données : sondages avec réponses individuelles (25 sondages publics), résultats publiés par les sondeurs, recensement 2021 (via proj-geo-marketing-api), financement politique d'Élections Québec (agrégé). Un agent analytique répond en langage naturel et rédige un rapport court et chiffré qui cite ses sources (ex. : portrait d'une MRC ou d'un quartier). Recherche de questions par mots exacts ou par sens, comparaison entre groupes, regroupement de questions équivalentes, analyse des réponses ouvertes par LLM, export Excel."
+  techno: ["Azure AI Search (un index par client)", "BM25 + reranking Cohere", "Azure OpenAI", "Container Apps", "Service Bus", "migration AWS → Azure"]
+  marche: "Premier client visé : Environics Institute (outil actuel par mots exacts seulement). Aucun client payant."
+  projets: [proj-geo-marketing-api]
+  statut: pause  # hébergement ~75 $/mois + coûts de l'agent, sans client pour les couvrir
+  montrable: sur_demande  # code prêt : remis en ligne en une demi-journée pour une démo
+  facettes: [techno, sondages]
+  poids: moyen
+  preuves: ["../plan_affaires_creavenir/plan-affaires.md (section L'Atlas Opubliq)"]
+  validation: valide
+
+- id: proj-geo-marketing-api
+  titre: geo-marketing-api
+  cadre: opubliq
+  objectif: "Usage interne pour commencer : accéder facilement aux données sociodémographiques par localisation précise, agréger de petites formes géographiques en plus grandes, et devenir une vraie source de vérité des données sociodémographiques au Canada."
+  description: "API interne de profils sociodémographiques pour ~57 000 aires de diffusion au Canada (recensement 2021) et indice de dons."
+  techno: ["FastAPI", "DuckDB (requêtes spatiales)", "GeoParquet dans Azure Blob (Canada Est)", "Azure Container Apps (mise à l'échelle à zéro)", "Entra ID", "ETL GeoPandas", "Docker"]
+  pratiques: [conformité Loi 25 documentée]
+  role: responsable
+  statut: hors_ligne  # coût d'hébergement
+  montrable: non
+  facettes: [techno]
+  poids: moyen
+  validation: valide
+
+- id: proj-silicon-sampling
+  titre: Répondants synthétiques par LLM (silicon sampling)
+  cadre: recherche  # projet de recherche, en collaboration informelle
+  description: "Fine-tuning de Llama 3.1 8B sur CES / Démocratie Checkup 2024 ; le fine-tuning direct bat le prompting. Working paper avec Justin Savoie."
+  techno: ["Unsloth", "PyTorch", "RunPod", "Azure AI Search", "Polars", "DuckDB"]
+  role: responsable  # travail surtout seul ; résultats partagés et discutés avec Justin Savoie
+  statut: actif
+  montrable: TROU
+  publication: pub-wp-silicon-sampling
+  facettes: [techno, sondages, recherche]
+  poids: moyen
+  validation: valide
+
+- id: proj-panel-clustering-pdc
+  titre: panel-clustering-pdc
+  cadre: TROU  # CLESSN × Opubliq
+  description: "Segmentation des attitudes politiques et potentiel de croissance des partis ; site React ; décisions méthodologiques documentées."
+  techno: ["R", "React"]
+  role: TROU
+  statut: pause  # pas vraiment en cours
+  montrable: non  # rien en ligne
+  facettes: [politique, techno]
+  poids: faible
+  validation: valide
+
+- id: proj-environics-pse
+  titre: Rapports Environics PSE
+  cadre: client
+  experience: exp-environics
+  description: Rapports en Typst générés depuis R.
+  techno: ["R", "Typst"]
+  role: TROU
+  statut: archive
+  montrable: sur_permission
+  facettes: [sondages]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-environics-support-democracy
+  titre: Analyses Environics Support for Democracy (sites Quarto)
+  cadre: client
+  experience: exp-environics
+  description: "Trois analyses en ligne, adresses non listées."
+  liens:
+    - "Democratic satisfaction or partisan satisfaction? Authoritarianism, institutional trust, and vote intent in Canada and USA : https://deep-dive-authoritarianism.netlify.app"
+    - "Authoritarian democrats who believe in democratic institutions : https://effulgent-syrniki-8337d2.netlify.app"
+    - "Determinants of support for democracy – United States : https://support-dem-data-explo-usa.netlify.app"
+  techno: ["R", "Quarto", "Netlify"]
+  role: responsable  # seul
+  statut: actif
+  montrable: sur_permission
+  facettes: [sondages, politique, recherche]
+  poids: moyen
+  validation: valide
+
+- id: proj-enap-lois-localisation
+  titre: Effets dynamiques de l'adoption des lois de localisation
+  cadre: client
+  experience: exp-enap
+  liens: ["https://temporal-effects-laws.netlify.app"]
+  techno: ["R", "Quarto", "Netlify"]
+  statut: actif
+  montrable: sur_permission
+  facettes: [recherche, public]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-enap-reseau-certification
+  titre: Réseau de certification des flux de données entre pays (1995–2024)
+  cadre: client
+  experience: exp-enap
+  description: "Réseau dyadique pays-pays par année ; modélisation des facteurs de certification (distance politique par points idéaux à l'ONU, modèle de gouvernance des données, commerce de services numériques)."
+  techno: ["R"]
+  statut: TROU
+  montrable: TROU
+  facettes: [recherche, public]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-repensons-levis-plateforme
+  titre: Plateforme de campagne Repensons Lévis 2025
+  cadre: client
+  experience: exp-repensons-levis-2025
+  description: "Questionnaire hébergé, pipeline AWS Lambda, modèles bayésiens, tableau de bord Quarto. Étude de cas sur opubliq.com."
+  techno: ["AWS Lambda", "modèles bayésiens", "Quarto"]
+  role: responsable
+  statut: archive
+  montrable: public  # étude de cas
+  facettes: [politique, sondages, techno]
+  poids: moyen
+  validation: valide
+
+- id: proj-vdq-outil-sondages
+  titre: Outil d'accès aux données de sondage (Ville de Québec)
+  cadre: employeur
+  experience: exp-vdq-stage
+  description: "Application Shiny qui interroge un index Azure AI Search ; classement LLM des questions par produits et services municipaux."
+  techno: ["R Shiny", "Azure AI Search", "LLM"]
+  role: responsable
+  statut: actif  # poursuivi par la superviseure
+  montrable: captures
+  facettes: [public, sondages, techno]
+  poids: fort
+  validation: valide
+
+- id: proj-veille-gouv
+  titre: veille-gouv (idée / MVP)
+  cadre: opubliq
+  description: "Veille gouvernementale B2B qui relie lobbying, SEAO et dons politiques dans un graphe d'entités ; scraper Playwright pour SEAO."
+  techno: ["Playwright"]
+  role: responsable
+  statut: TROU
+  montrable: non
+  facettes: [politique, public, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-site-opubliq
+  titre: Site opubliq.com
+  cadre: opubliq
+  description: "Site en Astro ; page Réalisations (publications + 3 études de cas : Repensons Lévis, CIUSSS, plateforme Médaillon)."
+  techno: ["Astro"]
+  liens: ["https://opubliq.com"]
+  role: responsable  # conçu et construit par Hubert
+  statut: actif
+  montrable: public
+  facettes: [sondages, politique, techno]
+  poids: moyen  # vitrine des études de cas
+  validation: valide
+
+- id: proj-blog-opubliq
+  titre: Blog Opubliq
+  cadre: opubliq
+  liens: ["https://blog-opubliq.netlify.app"]
+  description: TROU
+  statut: actif
+  montrable: public
+  facettes: []
+  poids: faible
+  validation: valide_lot
+
+- id: proj-simulateur-opubliq
+  titre: Simulateur Opubliq
+  cadre: opubliq
+  liens: ["https://opubliq-simulateur.netlify.app"]
+  description: TROU
+  statut: actif
+  montrable: public
+  facettes: []
+  poids: faible
+  validation: valide_lot
+
+- id: proj-opubliq-sondages-demo
+  titre: Démo de la plateforme de sondages Opubliq
+  cadre: opubliq
+  liens: ["https://opubliq-sondages-demo.netlify.app"]
+  description: TROU
+  statut: actif
+  montrable: captures  # protégé par mot de passe
+  facettes: [sondages, techno]
+  poids: faible
+  validation: valide_lot
+
+# --- Recherche (CLESSN) ---
+
+- id: proj-datagotchi
+  titre: Datagotchi
+  cadre: employeur
+  experience: exp-clessn
+  description: "Application qui prédit le vote à partir des habitudes de vie (une trentaine de questions). Utilisée depuis l'élection fédérale de 2021, puis pour les élections au Québec qui ont suivi (dont QC 2022), puis pour l'élection américaine de 2024 (plus de 10 000 utilisateurs)."
+  createurs_officiels: "Yannick Dufresne, Simon Coulombe (Université Laval) et Catherine Ouellet (UdeM)"
+  partenaires:
+    - "Léger (version US 2024) : partenariat pour se bâtir un panel aux États-Unis, l'app servant à recruter des panélistes ; le sondage pilote passait par Léger, qui contribuait aussi à la diffusion."
+  realisations:
+    - "USA 2024 : responsable du modèle. Conception du sondage pilote, modèle de régression ordinale, mises à jour pendant la campagne, outil Shiny interne pour tester le modèle en équipe."
+    - "Élections précédentes (fédérale 2021, Québec) : impliqué, mais pas responsable du modèle."
+  techno: ["R", "Shiny"]
+  role: responsable  # du modèle pour USA 2024 seulement
+  attention: "Ne pas présenter Hubert comme créateur de Datagotchi. Formulation juste : responsable du modèle pour l'élection américaine de 2024, en partenariat avec Léger."
+  liens: ["https://www.datagotchi.com/"]
+  preuves:
+    - https://leger360.com/en/2024-us-election-simulator-datagotchi/
+    - https://nouvelles.ulaval.ca/2023/01/18/le-datagotchi-a-le-vent-dans-les-voiles-a:496a19a7-ed05-43dd-b228-a2da17833189
+    - https://montreal.ctvnews.ca/conservatives-eat-meat-quebec-solidaire-voters-ride-the-bus-study-1.6089022
+    - https://leger360.com/federal-elections-discover-your-electoral-profile-with-leger-datagotchi
+  statut: archive  # l'app n'est plus en ligne ; le site l'est
+  montrable: public
+  facettes: [politique, techno, sondages]
+  poids: fort
+  note_privee: "A quitté la CLESSN après USA 2024 : désaccord sur la méthode du modèle ; solution proposée, non retenue par le titulaire pour la fédérale 2025. Ne jamais mentionner à un employeur."
+  validation: valide
+
+- id: proj-sondr
+  titre: Package R sondr (et autres packages internes)
+  cadre: employeur
+  experience: exp-clessn
+  description: "Analyse de sondages ; utilisé par l'équipe CLESSN et dans mon mémoire. Jamais utilisé par des clients (~2023)."
+  techno: ["R"]
+  role: TROU
+  statut: TROU
+  montrable: TROU
+  facettes: [sondages, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-polimetre-outil
+  titre: Structuro, outil d'annotation et d'export des promesses (Polimètre)
+  cadre: employeur
+  experience: exp-clessn
+  techno: ["R", "Shiny"]
+  description: "Application Shiny qui transforme les fichiers Excel de l'équipe en fichiers prêts à importer dans le site du Polimètre. Aide l'opérateur qui dirige les auxiliaires à annoter les promesses et à transformer le fichier commun de l'équipe en fichier exportable vers le backend du site."
+  role: responsable
+  statut: actif  # encore utilisé aujourd'hui
+  montrable: TROU
+  facettes: [politique, techno]
+  poids: moyen
+  validation: valide
+
+- id: proj-shiny-clessn
+  titre: Apps Shiny CLESSN (Datagotchi sandbox, shinygotchi, catalogue CAPP)
+  cadre: employeur
+  experience: exp-clessn
+  techno: ["R", "Shiny"]
+  statut: hors_ligne  # 404
+  montrable: non
+  facettes: [techno, politique]
+  poids: faible
+  validation: valide_lot
+
+# --- Perso ---
+
+- id: proj-mega-agregateur-qc2026
+  titre: Méga-agrégateur Québec 2026 (pool élection)
+  cadre: perso
+  description: "Agrège et calibre les projections (Qc125 et autres agrégateurs). Le soir du vote (5 oct. 2026), mise à jour en direct depuis le flux officiel d'Élections Québec (appariement des circonscriptions selon la nouvelle carte, alertes si une circonscription n'est pas reconnue)."
+  resultat: "Le modèle indiquait un gouvernement PQ minoritaire avant les médias. Probabilité de majorité PQ sous 5 % vers 21 h 18 et sous 3 % vers 21 h 22, avec environ la moitié des bureaux dépouillés : environ 15 min avant Noovo (21 h 36), 40 min avant Radio-Canada (22 h), jusqu'à 55 min avant TVA (au plus tard 22 h 15). Aucune annonce publique de ma part ; la preuve est le graphique."
+  preuves: ["~/code/pool-elxn-26/report/plots/soiree_majorite.png"]
+  techno: ["Python", "R", "JavaScript"]
+  liens: ["https://pool-qc-2026-c42e46ee.netlify.app/"]
+  role: responsable  # seul
+  mode_dev: "Code écrit à ~95 % par Claude Code ; Hubert dans un rôle de product manager (spécification, méthode, validation)."
+  usage: "Essentiellement un seul utilisateur (Hubert) ; envoyé à quelques personnes, peu consulté pendant la soirée."
+  attention: "Formulation juste : le modèle indiquait l'issue avant les médias, preuve à l'appui (graphique horodaté). Ne pas dire qu'il a été suivi par un public ni qu'il a été annoncé."
+  statut: archive
+  montrable: public
+  facettes: [politique, techno]
+  poids: fort
+  validation: valide
+
+- id: proj-compare-toi-electeurs
+  titre: « Compare-toi aux électeurs québécois » (CES 2025)
+  cadre: perso
+  description: "App statique ; contraintes juridiques documentées (marque Boussole électorale)."
+  techno: ["Azure Static Web Apps"]
+  role: responsable
+  statut: TROU
+  montrable: TROU
+  facettes: [politique, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-poches-souverainistes
+  titre: Poches souverainistes
+  cadre: perso
+  techno: ["React", "Vite"]
+  description: TROU
+  statut: TROU
+  montrable: TROU
+  facettes: [politique]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-nhl-matchups
+  titre: NHL Matchups
+  cadre: perso
+  description: "Site mis à jour chaque jour par GitHub Action (données MoneyPuck) ; score de menace offensive par analyse factorielle avec prior de la saison précédente."
+  techno: ["React", "GitHub Actions"]
+  liens: ["https://nhl-matchups.netlify.app/"]
+  role: responsable
+  statut: archive  # ne se met pas à jour cette saison
+  montrable: public
+  facettes: [sport, techno]
+  poids: moyen
+  validation: valide
+
+- id: proj-pool-tracker-espn
+  titre: Pool tracker ESPN
+  cadre: perso
+  description: "Pipeline quotidien, notifications ntfy."
+  techno: ["Python", "GitHub Actions", "pytest", "ruff", "uv"]
+  liens: ["https://hubcad25.github.io/pool-tracker-2627"]
+  role: responsable
+  statut: actif
+  montrable: public
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-pool-de-hockey
+  titre: Pool de hockey keeper
+  cadre: perso
+  liens: ["https://pooldehockey.netlify.app"]
+  description: "Gestion d'un pool keeper (MSHL) pendant environ 4 ans. Site admin Flask développé avec mon père pour gérer le pool (alignements, échanges, repêchages), fonctions AWS Lambda qui mettent les points à jour, site public Gatsby hébergé sur Netlify ; scripts R de commissaire (ballottage, plafond salarial)."
+  techno: ["Python", "Flask", "PostgreSQL", "AWS Lambda (Serverless)", "Gatsby", "Netlify", "R"]
+  equipe: "avec mon père"
+  periode: {debut: 2020, fin: 2024}  # approximatif selon Hubert ; code daté de 2019 à 2024
+  preuves: ["~/code/hockey/MSHL"]
+  statut: actif
+  montrable: public
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-puck-vision
+  titre: Puck Vision
+  cadre: perso
+  description: "Détection d'objets en vidéo de hockey ; pilote multi-domaines qui mesure l'effort de correction des préannotations."
+  techno: ["YOLO / Ultralytics", "OpenCV"]
+  role: responsable
+  statut: TROU
+  montrable: TROU
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-fantasy-lnh
+  titre: Projections fantasy 2026-27 et marché des échanges LNH
+  cadre: perso
+  description: "Projections (R + simulateur) ; marché des échanges LNH par LLM."
+  techno: ["R", "LLM"]
+  statut: TROU
+  montrable: TROU
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-catan-vision
+  titre: Conseiller de placement Catan par vision par ordinateur
+  cadre: perso
+  techno: ["vision par ordinateur"]
+  statut: TROU
+  montrable: TROU
+  facettes: [techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-portfolio
+  titre: Portfolio et CV en ligne
+  cadre: perso
+  liens: ["https://hubcad25.github.io/portfolio"]
+  statut: actif
+  montrable: public
+  facettes: []
+  poids: faible
+  notes: CV en ligne périmé (avant 2025).
+  validation: valide_lot
+
+# --- Ajouts depuis ~/code (2026-10-23) ---
+
+- id: proj-rapport-vibecoding
+  titre: Rapport « Tendances de vibecoding » (analyse de mon propre usage de Claude Code)
+  cadre: perso
+  periode: {debut: 2026-08, fin: 2026-08}
+  description: "Analyse de 956 échanges réels sur 94 sessions dans 2 projets (le prototype de l'Atlas Opubliq et un projet perso) : classification des tâches (exploration, architecture, discussion produit, features, orchestration de sous-agents, debug) et paliers de complexité. Constat : l'essentiel du temps passe en exploration, en réflexion d'architecture et en discussion produit ; le code pur est minoritaire."
+  preuves: ["~/code/my_vibecoding_tendencies/report/rapport_vibecoding.pdf"]
+  role: responsable
+  statut: archive
+  montrable: sur_demande
+  facettes: [techno]
+  poids: moyen  # preuve directe du rôle de PM / architecte avec l'IA
+  validation: valide
+
+- id: proj-llm-council
+  titre: llm-council
+  cadre: perso
+  description: "Outil CLI interne : soumet une question technique à plus de 10 LLM, qui proposent, se critiquent, votent, puis une synthèse est produite. Utilisé par Hubert lui-même."
+  role: responsable
+  statut: actif
+  montrable: sur_demande
+  facettes: [techno]
+  poids: faible
+  validation: valide
+
+- id: proj-twittosphere-qc2022
+  titre: Twittosphères des journalistes et des candidats, élection québécoise 2022
+  cadre: employeur  # CLESSN ; à mentionner : Wazak
+  experience: exp-clessn
+  description: "Visualisations des interactions entre journalistes et entre candidats sur Twitter pendant l'élection québécoise 2022."
+  statut: TROU
+  montrable: TROU
+  facettes: [politique, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-previsions-us2024
+  titre: Prévisions électorales aux États-Unis 2024 (parts de vote par État)
+  cadre: TROU
+  description: "Visualisation des parts de vote prévues par État pour la présidentielle de 2024."
+  statut: TROU
+  montrable: TROU
+  facettes: [politique]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-tramway-predictif
+  titre: Soutien au tramway de Québec, analyse prédictive
+  cadre: TROU
+  description: "Analyse prédictive du soutien au tramway de Québec à partir des données ouvertes de la Ville, avec forêts aléatoires."
+  statut: TROU
+  montrable: TROU
+  facettes: [public, politique]
+  poids: faible
+  validation: valide_lot
+
+# --- Projets sport perso ajoutés en lot le 2026-10-23 (source : ~/code) ---
+
+- id: proj-nhl-trade-market
+  titre: NHL Trade Market Predictor
+  cadre: perso
+  description: "Prédit le paquet qu'un joueur rapporterait sur le marché des échanges LNH (choix, espoirs) ; depuis 2026-08, modèle bayésien de valeur d'échange calibré sur l'équivalence des deux côtés des échanges historiques. Interface web Next.js."
+  techno: ["Python", "R", "Next.js", "TypeScript"]
+  periode: {debut: 2023-03, fin: null}
+  role: responsable  # quelques commits d'autres contributeurs
+  liens: ["https://github.com/hubcad25/nhl_trade_market"]
+  statut: actif
+  montrable: TROU
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-elo-lnh
+  titre: Ratings Elo LNH (joueurs et équipes)
+  cadre: perso
+  description: "Elo d'équipes avec facteur K optimisé pour la précision des prédictions sur 5 saisons (2020-21 à 2024-25) ; Elo de joueurs à partir des xG et du temps de jeu, prévu comme billet Substack."
+  techno: ["Python", "R"]
+  periode: {debut: 2025-11, fin: 2026-01}
+  role: responsable
+  liens: ["https://github.com/hubcad25/elo_rating_teams", "https://github.com/hubcad25/elo_rating_players"]
+  statut: TROU
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-draft-simulator
+  titre: Simulateurs du repêchage LNH 2024 et 2025
+  cadre: perso
+  description: "Simulation Monte Carlo du repêchage à partir de classements de 16 sources pondérées selon leur crédibilité, extraits d'EliteProspects."
+  techno: ["R"]
+  periode: {debut: 2024-06, fin: 2025-03}
+  role: responsable
+  liens: ["https://github.com/hubcad25/nhl-draft-2024-simulator"]
+  statut: archive
+  montrable: public
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-nhl-draft-rankings-2025
+  titre: Application de classement pour le repêchage LNH 2025
+  cadre: perso
+  description: "Application Flask pour classer les espoirs : évaluation selon 5 scénarios (percentiles), échelle commune attaquants et défenseurs, graphiques, import et export CSV."
+  techno: ["Python", "Flask", "SQLite", "Bootstrap"]
+  periode: {debut: 2025-06, fin: 2025-06}
+  role: responsable
+  statut: archive
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-draft-pick-value
+  titre: Valeur d'un choix au repêchage
+  cadre: perso
+  description: "Deux modèles combinés (joue une saison ou non, puis distribution du game score) pour estimer la probabilité qu'un choix devienne un attaquant de premier trio, de deuxième, etc."
+  techno: ["R", "Quarto"]
+  periode: {debut: 2024-08, fin: 2025-02}
+  statut: TROU
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-pool-lp
+  titre: Projections pour le pool de La Presse
+  cadre: perso
+  description: "Projections de points, collecte des alignements et des salaires, et application pour optimiser une équipe dans le pool de hockey de La Presse."
+  techno: ["R", "Python", "JavaScript"]
+  periode: {debut: 2025-10, fin: 2025-11}
+  role: responsable
+  liens: ["https://github.com/hubcad25/pool-lp"]
+  statut: TROU
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-predict-points-season
+  titre: Projections de points par saison (LNH)
+  cadre: perso
+  description: "Modèles de projection avec intervalles de confiance ; taux par match régressés vers la projection initiale selon le nombre de matchs joués."
+  techno: ["R"]
+  periode: {debut: 2024-09, fin: 2024-10}
+  role: responsable
+  liens: ["https://github.com/hubcad25/predict_points_season"]
+  statut: archive
+  montrable: public
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-how-teams-create-offense
+  titre: Styles offensifs 5 contre 5 de la LNH
+  cadre: perso
+  description: "Analyse et visualisation de la façon dont les équipes créent de l'attaque à 5 contre 5 (saison 2025-26, données MoneyPuck), pour un article Substack en anglais."
+  techno: ["Python", "R"]
+  periode: {debut: 2026-01, fin: 2026-02}
+  role: responsable
+  liens: ["https://github.com/hubcad25/how_teams_create_off"]
+  statut: archive
+  montrable: public
+  attention: "Article jamais publié sur Substack : biais important découvert dans les données (les takeaways et giveaways sont comptés différemment d'un aréna à l'autre). Le README du repo public tient lieu d'article."
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-bet-hockey
+  titre: Analyse de paris hockey (MoneyPuck vs Mise-o-jeu)
+  cadre: perso
+  description: "Repère les paris à valeur positive en comparant les probabilités de MoneyPuck aux cotes de Mise-o-jeu, avec suivi du rendement."
+  techno: ["R"]
+  periode: {debut: 2025-10, fin: 2026-04}
+  role: responsable
+  liens: ["https://github.com/hubcad25/bet_hockey"]
+  statut: TROU
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-bet-trophees-lnh
+  titre: Paris sur les trophées LNH (plan)
+  cadre: perso
+  description: "Plan d'un système qui compare un modèle probabiliste aux cotes des bookmakers pour les trophées Hart, Vézina, Norris et Jack Adams. Au stade du plan."
+  periode: {debut: 2025-06, fin: 2025-06}
+  statut: abandonne
+  montrable: non
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-nhl-playoff-matchup-model
+  titre: Modèle de séries LNH (plan)
+  cadre: perso
+  description: "Plan d'un modèle qui prédit le résultat d'une série entre deux équipes (API LNH, MoneyPuck, SQLite). Au stade du plan."
+  periode: {debut: 2025-04, fin: 2025-04}
+  statut: abandonne
+  montrable: non
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-hockey-sim
+  titre: Simulateur de hockey x,y
+  cadre: perso
+  description: "Simulateur de hockey en coordonnées x,y pour optimiser des alignements et entraîner des agents par apprentissage par renforcement."
+  techno: ["Python"]
+  periode: {debut: 2026-03, fin: 2026-03}
+  role: responsable
+  liens: ["https://github.com/hubcad25/hockey-sim"]
+  statut: TROU
+  montrable: TROU
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-hockey-gm-game
+  titre: Hockey GM, jeu mobile
+  cadre: perso
+  description: "Jeu mobile de gestion d'équipe de hockey conçu comme un jeu de décisions narratives."
+  techno: ["TypeScript", "React Native / Expo"]
+  periode: {debut: 2026-06, fin: 2026-06}
+  role: responsable
+  statut: TROU
+  montrable: TROU
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-analyses-lnh-ponctuelles
+  titre: Analyses LNH ponctuelles
+  cadre: perso
+  description: "Petites analyses exploratoires : tirs des meilleurs marqueurs (Caufield), séquences en cours, séquences des gardiens, réseau des victoires entre équipes, données NHL Edge (accélérations, temps par zone), matchups des centres Canadiens-Hurricanes en séries, production selon l'âge, buts en séries, analyse textuelle des rapports de recrutement, valeur des échanges (TradeValue)."
+  techno: ["R", "Python", "Quarto"]
+  periode: {debut: 2022, fin: 2026}
+  role: responsable
+  statut: archive
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-sundogs-roster
+  titre: Planificateur d'alignement et de masse salariale (Sundogs)
+  cadre: perso
+  description: "Ingestion d'un tableur en CSV et moteur de composition d'alignement selon des règles LNH (cibles par position, limites de joueurs, plafond)."
+  techno: ["Python"]
+  periode: {debut: TROU, fin: 2026-04}
+  statut: TROU
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-fhm-form
+  titre: Forme des joueurs dans Franchise Hockey Manager
+  cadre: perso
+  description: "Application locale (FastAPI + React) qui lit les exports CSV de Franchise Hockey Manager 12 : forme récente des joueurs par EWMA du game rating, vues équipe, joueur et ligue, onglet de recherche de joueurs avec profils pondérés."
+  techno: ["Python", "FastAPI", "React", "TypeScript", "Recharts"]
+  periode: {debut: 2026-10, fin: null}
+  role: responsable
+  statut: actif
+  montrable: TROU
+  facettes: [sport, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-mlb-lineup
+  titre: Alignement idéal au baseball (MLB)
+  cadre: perso
+  description: "Optimisation d'alignements par simulation : apprend quel profil de frappeur maximise les points à chaque position de l'ordre des frappeurs. Projet d'apprentissage en optimisation."
+  techno: ["Python"]
+  periode: {debut: 2025-09, fin: 2025-09}
+  role: responsable
+  liens: ["https://github.com/hubcad25/mlb-ideal-lineup"]
+  statut: archive
+  montrable: public
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-mlb-analyses
+  titre: Analyses de baseball (Statcast, OOTP)
+  cadre: perso
+  description: "Vitesse de sortie de balle vs résultat avec Statcast (la vitesse moyenne est-elle trompeuse ?), wOBA vs xwOBA, idées de modèle bayésien par présence au bâton, forêts aléatoires sur les frappeurs dans Out of the Park Baseball."
+  techno: ["R", "Python", "Quarto"]
+  periode: {debut: 2025-02, fin: 2026-08}
+  role: responsable
+  statut: archive
+  montrable: TROU
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: proj-racquetball
+  titre: Statistiques de racquetball
+  cadre: perso
+  description: "Suivi des points et des victoires entre joueurs, avec une estimation bayésienne du prochain gagnant."
+  techno: ["R"]
+  periode: {debut: 2024-12, fin: 2024-12}
+  role: responsable
+  statut: archive
+  montrable: non
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot

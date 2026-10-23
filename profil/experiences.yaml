@@ -1,0 +1,381 @@
+# Une entrée par emploi, contrat, mandat ou rôle. Les réalisations détaillées sont dans `realisations`.
+# `poids` = substance de l'expérience (durée, rôle, résultat), pas sa pertinence pour une offre donnée.
+
+- id: exp-vdq-stage
+  titre: Stagiaire en analyse de données sociales
+  organisation: Ville de Québec
+  unite: "Service de l'interaction citoyenne, division Innovation et développement de la relation citoyenne"
+  type: stage
+  periode: {debut: 2026-05, fin: 2026-09}
+  regime: temps_plein
+  heures_semaine: 25-35
+  remunere: oui
+  au_nom: employeur
+  role: responsable  # a conçu et construit la base de l'outil
+  contacts:
+    - "Camille Tremblay-Antoine (superviseure)"
+    - "Mathieu Grégoire (directeur de division)"
+  realisations:
+    - "Conception et construction de la base d'un outil d'accès aux données de sondage : application Shiny qui interroge un index Azure AI Search."
+    - "Classement par LLM des questions de sondage selon les produits et services municipaux (jeu de référence annoté, lots d'annotation, dictionnaire de produits)."
+    - "Participation au développement de la gestion du panel de répondants de la Ville."
+  resultat: "Pas encore déployé dans les divisions, faute de temps pendant le stage ; le déploiement est prévu. La superviseure poursuit le développement pour l'étendre aux autres divisions et services."
+  suite: "Mathieu Grégoire m'a invité à soumissionner comme consultant pour poursuivre le projet ; ça n'a pas abouti."
+  facettes: [public, sondages, techno]
+  competences: [comp-r-shiny, comp-azure, comp-llm-annotation, comp-rag-recherche-semantique]
+  projets: [proj-vdq-outil-sondages]
+  montrable: captures
+  poids: fort  # cloud (Azure) et LLM en contexte organisationnel professionnel
+  validation: valide
+
+- id: exp-opubliq
+  titre: Cofondateur et PDG
+  organisation: Opubliq inc.
+  type: entreprise
+  periode: {debut: 2024, fin: null}
+  date_incorporation: 2025-09-09
+  chiffre_affaires: "environ 15 000 $ au total depuis l'incorporation (2025-09-09) ; les contrats antérieurs étaient facturés aux noms personnels des associés"
+  regime: temps_partiel
+  heures_semaine: 15-25  # variable selon la semaine
+  remunere: non  # aucun salaire versé
+  au_nom: opubliq
+  role: responsable
+  details:
+    - "51 % des parts. Associés : Alexandre Bouillon (science des données) et Nicolas Ebnoether-Noël (développement des affaires), 24,5 % chacun, 5 à 10 h/sem. au maximum."
+    - Seul développeur.
+  realisations:
+    - "Développement des affaires : étude de marché, tests utilisateurs et entretiens, stratégie de mise en marché, prospection."
+    - "Développement des outils à vendre : prototype SaaS pour partis politiques municipaux ; moteur de recherche de sondages (voir proj-atlas-opubliq)."
+    - "Accompagnement Entrepreneuriat ULaval, programmes VIP et VOA (voir form-vip-voa)."
+    - "Demandes de financement, dont un plan d'affaires pour une marge de crédit Créavenir (Desjardins, volet Montréal), en rédaction en 2026."
+    - "Un seul mandat facturé par Opubliq inc. : voir exp-medaillon-ciusss."
+  pistes_non_conclues:
+    - "MDN : échoué, pas payé."
+    - "PQ : aucun mandat payé."
+    - "Polimètre Repensons Lévis 2026 : le client n'a pas donné suite."
+    - "IRPP : élicitation d'experts sur la souveraineté."
+    - Segma Recherche.
+  facettes: [sondages, politique, techno]
+  competences: [comp-gestion-projet, comp-dev-ia-pm]
+  projets: [proj-atlas-opubliq, proj-medaillon-plateforme, proj-geo-marketing-api, proj-site-opubliq, proj-veille-gouv, proj-simulateur-opubliq, proj-blog-opubliq]
+  montrable: public
+  preuves: [https://opubliq.com]
+  poids: fort
+  statut_actuel: "Mise en veille ; activité secondaire de consultation, sur heures personnelles seulement."
+  formation: form-vip-voa
+  validation: valide
+
+- id: exp-medaillon-ciusss
+  titre: Mandat de sondage pour le Comité des usagers du CIUSSS de l'Est-de-l'Île-de-Montréal
+  organisation: Médaillon Groupe Conseils
+  type: mandat
+  periode: {debut: 2026-02, fin: 2026-07}  # selon les fichiers du repo contrat_medaillon_ciuss
+  regime: ponctuel
+  remunere: oui
+  au_nom: opubliq
+  role: responsable  # du développement et du sondage ; contributeur sur l'analyse
+  equipe:
+    - "Hubert : responsable à 100 % du développement de la plateforme et du sondage."
+    - "Alexandre Bouillon : responsable de l'analyse, du rapport et de la revue méthodologique, avec Hubert en assistance ; l'analyse s'est surtout faite pendant le stage d'Hubert à la Ville de Québec (mai 2026 et après)."
+    - "Nicolas Ebnoether-Noël : employé de Médaillon pendant le contrat (côté client)."
+  chronologie: "Hubert a développé la plateforme et le sondage de février à avril 2026, avant son stage."
+  realisations:
+    - "Mené seul : questionnaires SurveyJS, collecte postale avec code QR (push-to-web)."
+    - "En assistance à Alexandre : revue méthodologique, pondération, rapport."
+    - "Une première version de la plateforme de sondages en libre-service a été développée dans ce mandat et sert encore chez Médaillon (voir proj-medaillon-plateforme)."
+  ampleur: "Plus de 6 000 commentaires d'usagers et de la population, et plus de 1 100 commentaires d'organismes communautaires recueillis (selon l'entente de phase 2)."
+  suite: "Phase 2 (entente de service de septembre 2026, client : Comité des usagers d'établissement, Santé Québec Est-de-l'Île-de-Montréal) : exploitation des commentaires de la phase 1 par groupe de services, consultation web et sur place sur la connaissance des responsabilités des usagers, infographies, et instauration d'un panel web continu d'usagers (collecte de courriels). Côté Opubliq : ajout de fonctions de panel à la plateforme. Fait en consultation sur heures perso. Entente pas encore signée (signature prévue fin oct. 2026)."
+  facettes: [sondages, public, techno]
+  competences: [comp-programmation-sondages, comp-ponderation, comp-typescript-web]
+  projets: [proj-medaillon-plateforme]
+  montrable: public  # étude de cas sur opubliq.com
+  poids: fort
+  notes: Seul mandat facturé par Opubliq inc.
+  validation: valide
+
+- id: exp-environics
+  titre: Analyste de données (contrats à temps partiel)
+  organisation: Environics Institute
+  type: contrat
+  periode: {debut: 2025-01, fin: null}  # en cours
+  regime: temps_partiel
+  heures_semaine: variable  # jusqu'à 20-25 h certaines semaines
+  remunere: oui
+  au_nom: perso
+  role: contributeur
+  contacts: ["Andrew Parkin"]
+  equipe:
+    - "Alexandre Bouillon : a travaillé avec Hubert sur le contrat Technology and Jobs."
+  realisations:
+    - "Préparation et pondération de données de sondage, indicateurs, analyses statistiques, visualisations, rédaction."
+    - "Projets : Kids, PSE, Support for Democracy, Technology and Jobs."
+    - "Méthodes : forêts aléatoires, régression, réduction de dimensionnalité."
+    - "Sujets publiés : impact de l'IA sur l'emploi, intentions de parentalité des jeunes, appui à la démocratie."
+    - "Analyse et recherche du bulletin Technology and Jobs, créditées en remerciements (voir pub-environics-tech-emploi)."
+    - "Coauteur de 4 billets Substack avec Andrew Parkin (voir pub-substack-*)."
+  facettes: [sondages, recherche]
+  competences: [comp-ponderation, comp-modelisation-predictive, comp-analyse-factorielle, comp-visualisation, comp-r-shiny, comp-typst]
+  projets: [proj-environics-pse, proj-environics-support-democracy]
+  montrable: public
+  preuves: [pub-environics-tech-emploi, pub-substack-who-wants-children]
+  poids: fort
+  notes: "Temps partiel, charge variable : ne pas présenter comme un emploi à temps plein. Relation en cours depuis janvier 2025."
+  validation: valide
+
+- id: exp-repensons-levis-2025
+  titre: Analyste de campagne, élection municipale 2025
+  organisation: Repensons Lévis
+  type: mandat
+  periode: {debut: 2025-07, fin: 2025-11}  # début approximatif ; élection le 2 nov. 2025
+  regime: ponctuel
+  remunere: oui
+  au_nom: perso
+  role: responsable
+  equipe:
+    - "Hubert : responsable du mandat, de la plateforme, du tableau de bord et de la pondération."
+    - "Alexandre Bouillon : petites tâches d'analyse, préparation du questionnaire (souvenir imprécis)."
+    - "Nicolas Ebnoether-Noël : formations de pointage terrain des bénévoles, entre autres."
+  realisations:
+    - Sondage de campagne sur mesure.
+    - Formation des bénévoles au pointage terrain (menée par Nicolas).
+    - Pondération avancée.
+    - Recommandations stratégiques.
+    - Analyses en temps réel pendant la campagne.
+    - "Plateforme de bout en bout : questionnaire hébergé, pipeline AWS Lambda, modèles bayésiens."
+    - "Tableau de bord Quarto mis à jour chaque matin avec les nouvelles données de terrain du client."
+    - "Pondération d'échantillons très biaisés (pointage terrain par des bénévoles)."
+  facettes: [politique, sondages, techno]
+  competences: [comp-ponderation, comp-stats-bayesiennes, comp-aws, comp-quarto, comp-programmation-sondages]
+  projets: [proj-repensons-levis-plateforme]
+  montrable: public  # étude de cas sur opubliq.com
+  preuves: ["https://opubliq.com/realisations/", "Témoignage de Jonathan Tanguay, directeur de cabinet de l'opposition, Ville de Lévis"]
+  poids: fort  # outil en production quotidienne pour un vrai client, témoignage public
+  validation: valide
+
+- id: exp-qff-2025
+  titre: Analyste de données de sondage, élection municipale 2025
+  organisation: Québec forte et fière
+  type: mandat
+  periode: {debut: 2024-12, fin: 2025-11}
+  contrat: "Contrat de prestation de services signé fin avril 2025 (rapport de déc. 2024 fait avant le contrat)."
+  regime: ponctuel
+  remunere: oui  # le contrat 2025 ; le rapport de déc. 2024 était avant le contrat (payé ? TROU)
+  au_nom: perso
+  role: TROU  # partage des tâches avec Alexandre à préciser si besoin
+  equipe:
+    - "Alexandre Bouillon : a fait le rapport de déc. 2024 avec Hubert."
+  realisations:
+    - "Rapport « Sondage pré-électoral Québec forte et fière » (déc. 2024, 11 p.) sur le sondage Léger x QFF d'août 2024 : segmentation des électeurs (solides, fragiles, potentiels, inatteignables), vote selon le profil sociodémographique, enjeux à mettre de l'avant (TramCité, logement), clusters, médias, suggestions pour le prochain sondage. C'est le principal livrable."
+    - Analyses de données pendant le contrat 2025 (pas en temps réel).
+  facettes: [politique, sondages]
+  competences: [comp-segmentation]
+  montrable: non  # données et rapport du client
+  preuves: ["~/Downloads/rapport_preliminaire-2.pdf (non public)"]
+  poids: faible
+  validation: valide
+
+- id: exp-enap
+  titre: Auxiliaire de recherche (temps partiel)
+  organisation: ENAP
+  type: auxiliaire
+  periode: {debut: 2025-10, fin: 2026-05}  # approximatif (« printemps 2026 »)
+  regime: temps_partiel
+  heures_semaine: 10  # environ
+  remunere: oui
+  au_nom: perso
+  role: contributeur
+  contacts: ["Guillaume Beaumier"]
+  realisations:
+    - "Coauteur d'un article dans Options politiques (voir pub-options-politiques-calcul-ia)."
+    - "Centres de données dans le monde et au Canada : nettoyage et analyse en R/Quarto."
+    - "Analyse « Effets dynamiques de l'adoption des lois de localisation » (Quarto)."
+    - "Réseau de certification des flux de données entre pays (1995–2024) : réseau dyadique, distance politique (votes à l'ONU), modèles de gouvernance des données, commerce de services numériques."
+  facettes: [recherche, public, techno]
+  competences: [comp-r-shiny, comp-quarto, comp-analyse-reseaux]
+  projets: [proj-enap-lois-localisation, proj-enap-reseau-certification]
+  montrable: sur_permission
+  preuves: [pub-options-politiques-calcul-ia, https://temporal-effects-laws.netlify.app]
+  poids: moyen
+  validation: valide
+
+- id: exp-clessn
+  titre: Auxiliaire de recherche, membre de l'équipe de coordination, puis scientifique de données
+  organisation: CLESSN, Université Laval
+  type: auxiliaire
+  periode: {debut: 2021-01, fin: 2024-12}
+  regime: temps_partiel
+  heures_semaine: "15-20 en session de cours, jusqu'à 35-40 certaines périodes"
+  remunere: oui
+  au_nom: employeur
+  role: responsable  # sur plusieurs volets ; contributeur sur l'infrastructure
+  titres_occupes:
+    - {titre: Auxiliaire de recherche, debut: 2021-01}
+    - {titre: Membre de l'équipe de coordination de la chaire, debut: 2022}
+    - {titre: Scientifique de données, debut: 2023}
+  responsabilites:
+    - "En charge de la fonction développement et des partenaires."
+  contacts: ["Yannick Dufresne"]
+  realisations:
+    - "Datagotchi : dirigé la modélisation (voir proj-datagotchi)."
+    - "Infrastructure logicielle sur AWS et plateforme de données pour les sciences sociales numériques : participation à l'idée, à la conception, à la réflexion et au développement (pas seul concepteur)."
+    - "Pipelines ETL : plus de 30 sondages, articles médiatiques et débats parlementaires."
+    - "Surtout : formation de plus de 10 étudiants non techniques à l'ETL ; lien entre l'équipe de dev et les étudiants en science politique."
+    - "Polimètre : création d'un outil, encore utilisé aujourd'hui, qui aide l'opérateur (celui qui dirige les auxiliaires) à annoter les promesses et à transformer le fichier commun de l'équipe en fichier exportable vers le backend du site."
+    - "Participation au développement de la gestion du panel de répondants de la CLESSN."
+    - "Analyste de données pour la couverture de l'élection québécoise 2022, en partenariat avec La Presse canadienne."
+    - "Packages R internes, dont sondr (analyse de sondages), utilisés par l'équipe et dans mon mémoire."
+    - "Co-rédaction de publications, demandes de subvention et d'approbation éthique, collaboration avec des partenaires externes."
+    - "Mentorat d'étudiants novices."
+  projets_participes:
+    - Datagotchi
+    - Boussole électorale
+    - Polimètre (outil d'annotation et d'export des promesses)
+    - "Projet Quorum (transition énergétique) : revue de littérature, sondage pilote de 80 questions, étude de marché pour un développement web"
+    - Analyse conjointe dans Qualtrics sur les préjugés des Québécois envers les bases électorales des partis
+    - Sondage de l'Office des professions du Québec auprès des ordres professionnels (2022)
+    - Analyse de données de la Fondation Université Laval
+    - Fusion de multiples sondages politiques
+    - "Mise en page du collectif « Bilan du gouvernement de la CAQ : entre nationalisme et pandémie » (Birch et al., 2022)"
+  facettes: [politique, sondages, techno, recherche]
+  competences: [comp-aws, comp-etl-pipelines, comp-r-packages, comp-analyse-conjointe, comp-programmation-sondages, comp-mentorat-enseignement, comp-demandes-subvention, comp-gestion-projet]
+  projets: [proj-datagotchi, proj-sondr, proj-polimetre-outil]
+  montrable: public
+  poids: fort
+  notes: "Près de 4 ans. sondr n'a jamais été utilisé par des clients (~2023)."
+  validation: valide
+
+- id: exp-mitacs-musee
+  titre: Scientifique de données (stage Mitacs)
+  organisation: Musée de la civilisation
+  type: stage
+  periode: {debut: 2022, fin: 2024}
+  regime: temps_partiel
+  heures_semaine: 10-15
+  remunere: oui
+  au_nom: employeur
+  role: contributeur  # en binôme
+  equipe:
+    - "Adrien Cloutier (alors doctorant, à confirmer) : partenaire du stage Mitacs."
+  realisations:
+    - Valorisation des enquêtes par sondage du Musée.
+    - "Identification de personas dans les données, puis croisement avec l'appréciation des services, des expositions, etc."
+    - Deux rapports stratégiques d'orientation marketing.
+    - Collaboration avec l'équipe marketing.
+  facettes: [sondages, public]
+  competences: [comp-segmentation]
+  montrable: public  # rapports montrables
+  preuves: ["~/Downloads/rapport_mitacs_mcq_NPS_le_vrai-20.pdf (à confirmer comme version finale)"]
+  poids: moyen
+  validation: valide
+
+- id: exp-ciram
+  titre: Scientifique de données
+  organisation: CIRAM, Université Laval
+  type: contrat
+  periode: {debut: 2023, fin: 2024}
+  regime: temps_partiel
+  heures_semaine: "5-10, parfois plus"
+  remunere: oui
+  au_nom: employeur
+  role: contributeur
+  realisations:
+    - Valorisation d'une base de données historique sur les successions dynastiques.
+    - Surtout des analyses ponctuelles (one shot).
+  facettes: [recherche]
+  poids: faible
+  notes: Peu pertinent ; à omettre sauf besoin.
+  validation: valide
+
+- id: exp-ta-icpsr
+  titre: Auxiliaire d'enseignement
+  organisation: ICPSR Summer Program, Michigan State University
+  type: enseignement
+  periode: {debut: 2025-07, fin: 2025-07}
+  regime: ponctuel
+  duree: "2-3 jours de cours, plus la préparation du contenu"
+  remunere: oui  # 1 000 $ au total
+  au_nom: employeur
+  role: contributeur
+  modalite: "Cours à distance : Yannick Dufresne, Hubert et 2 autres auxiliaires dans une classe à l'Université Laval ; étudiants à distance."
+  realisations:
+    - "Cours « Interactive Visualization, Dashboards, and Apps with R and Shiny », monté avec Yannick Dufresne."
+    - "Conception de contenu (labs, exercices) et animation des laboratoires."
+    - "Environ 8-9 étudiants."
+  facettes: [techno, recherche]
+  competences: [comp-r-shiny, comp-mentorat-enseignement]
+  poids: moyen  # programme reconnu, mais court et petit groupe
+  attention: "Ne pas présenter comme un poste d'enseignant au Michigan : cours de quelques jours, donné à distance depuis Québec."
+  validation: valide
+
+- id: exp-ta-pol7004
+  titre: Auxiliaire d'enseignement, POL-7004 Analyse quantitative (cycles supérieurs)
+  organisation: Université Laval
+  type: enseignement
+  periode: {debut: 2022, fin: 2024}
+  regime: temps_partiel
+  duree: "3 sessions (une par année)"
+  remunere: oui
+  au_nom: employeur
+  role: contributeur
+  realisations:
+    - "Correction, laboratoires en R, rencontres individuelles avec les étudiants."
+    - "20-30 étudiants par session."
+  facettes: [recherche, techno]
+  competences: [comp-mentorat-enseignement, comp-r-shiny]
+  poids: moyen  # 3 sessions, ~75 étudiants au total
+  validation: valide
+
+- id: exp-ta-eiom
+  titre: Auxiliaire d'enseignement, EIOM
+  organisation: ESEI, Université Laval
+  type: enseignement
+  periode: {debut: 2023, fin: 2023}
+  regime: temps_partiel
+  remunere: oui
+  au_nom: employeur
+  role: contributeur
+  facettes: [recherche]
+  competences: [comp-mentorat-enseignement]
+  poids: faible
+  validation: valide_lot
+
+- id: exp-rep-crdm
+  titre: Représentant étudiant
+  organisation: Centre de recherche en données massives (CRDM)
+  type: benevolat
+  periode: {debut: 2023, fin: 2024}
+  facettes: [recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: exp-capp-polimetre
+  titre: Recherchiste pour le Polimètre
+  organisation: CAPP, Université Laval
+  type: auxiliaire
+  periode: {debut: 2021, fin: 2021}
+  realisations:
+    - "Suivi des promesses du gouvernement Trudeau (2019–2021)."
+  facettes: [politique, recherche]
+  preuves: [pub-chapitre-trudeau]
+  poids: faible
+  validation: valide_lot
+
+- id: exp-rangers-recruteur
+  titre: Recruteur amateur
+  organisation: Rangers de Montréal-Est
+  type: benevolat
+  periode: {debut: 2019, fin: 2021}
+  realisations:
+    - Rapports sur des joueurs M18 AAA.
+    - Préparation au repêchage de la LHJAAAQ.
+    - Contribution à l'adoption d'une base Airtable pour les rapports de recrutement.
+  facettes: [sport]
+  poids: faible
+  validation: valide_lot
+
+- id: exp-affiliations
+  titre: Membre étudiant du CAPP, du GRCP et du CECD
+  type: affiliation
+  facettes: [recherche, politique]
+  poids: faible
+  validation: valide_lot

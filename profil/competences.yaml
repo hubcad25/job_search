@@ -1,0 +1,357 @@
+# Une compétence = un nom, deux niveaux et des preuves (ids d'entrées).
+# niveau_sans_ia : ce qu'Hubert peut défendre en entrevue technique sans IA.
+# niveau_avec_ia : ce qu'il livre avec Claude Code (rôle de PM ou d'architecte technique).
+# Échelle : notions, debutant, intermediaire, avance, expert ; sans_objet si la distinction ne s'applique pas.
+# Règle pour les agents : une compétence sans preuve ne s'affirme pas dans un CV ou une lettre.
+
+# --- Langages et outils d'analyse ---
+
+- id: comp-r-shiny
+  nom: R et Shiny
+  categorie: langage
+  niveau_sans_ia: expert
+  niveau_avec_ia: expert
+  preuves: [exp-clessn, proj-datagotchi, exp-vdq-stage, exp-ta-icpsr, exp-environics, exp-enap]
+  validation: valide
+
+- id: comp-r-packages
+  nom: Création de packages R
+  categorie: langage
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [proj-sondr]
+  validation: valide
+
+- id: comp-quarto
+  nom: Quarto / Markdown
+  categorie: outil
+  niveau_sans_ia: avance
+  niveau_avec_ia: expert
+  preuves: [exp-enap, proj-repensons-levis-plateforme, proj-environics-support-democracy, proj-enap-lois-localisation]
+  validation: valide
+
+- id: comp-python
+  nom: Python
+  categorie: langage
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-geo-marketing-api, proj-silicon-sampling, proj-pool-tracker-espn, proj-mega-agregateur-qc2026]
+  notes: "Outils : uv, pytest, ruff, Polars, GeoPandas."
+  validation: valide
+
+- id: comp-sql
+  nom: SQL (dont DuckDB)
+  categorie: langage
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-geo-marketing-api, proj-silicon-sampling]
+  validation: valide
+
+- id: comp-latex
+  nom: LaTeX
+  categorie: outil
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [pub-memoire, conf-eiom-2025-claude-code]  # mémoire rédigé avec gabarit LaTeX
+  validation: valide
+
+- id: comp-typst
+  nom: Typst (rapports générés depuis R)
+  categorie: outil
+  niveau_sans_ia: notions
+  niveau_avec_ia: intermediaire
+  preuves: [proj-environics-pse]
+  validation: valide
+
+- id: comp-html-js
+  nom: HTML / JavaScript
+  categorie: langage
+  niveau_sans_ia: debutant
+  niveau_avec_ia: intermediaire
+  preuves: [proj-mega-agregateur-qc2026]
+  notes: "Autodéclaré débutant, mais voir comp-typescript-web : projets TS/React construits avec Claude Code. Cohérence à valider."
+  validation: valide
+
+- id: comp-git
+  nom: Git et GitHub
+  categorie: outil
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [https://github.com/hubcad25]
+  validation: valide
+
+# --- Statistique et méthodes ---
+
+- id: comp-stats-bayesiennes
+  nom: Statistique bayésienne
+  categorie: methode
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-repensons-levis-plateforme, form-maitrise-ulaval, proj-nhl-matchups]
+  validation: valide
+
+- id: comp-modelisation-predictive
+  nom: Modélisation prédictive
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [proj-datagotchi, proj-mega-agregateur-qc2026, exp-environics, conf-spsa-2024]
+  notes: "Inclut régression ordinale (Datagotchi), forêts aléatoires (Environics)."
+  validation: valide
+
+- id: comp-inference-causale
+  nom: Inférence causale
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [form-eiom, proj-enap-lois-localisation]
+  notes: "Double différence appliquée en emploi (ENAP, lois de localisation). Formation EIOM : groupes synthétiques, double différence, régression par discontinuité, appariement."
+  validation: valide
+
+- id: comp-ponderation
+  nom: Pondération de sondages
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [exp-medaillon-ciusss, exp-environics, exp-repensons-levis-2025]
+  validation: valide
+
+- id: comp-classes-latentes
+  nom: Analyse de classes latentes (LCA)
+  categorie: methode
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [exp-clessn]  # appliquée pendant l'élection québécoise 2022 ; pas de livrable public
+  validation: valide
+
+- id: comp-analyse-conjointe
+  nom: Analyse conjointe
+  categorie: methode
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: intermediaire
+  preuves: [exp-clessn]
+  validation: valide
+
+- id: comp-analyse-factorielle
+  nom: Analyse factorielle
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [pub-environics-tech-emploi, proj-nhl-matchups]
+  validation: valide
+
+- id: comp-segmentation
+  nom: Segmentation (clustering)
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: [proj-panel-clustering-pdc, exp-mitacs-musee, exp-qff-2025]
+  validation: valide
+
+- id: comp-analyse-reseaux
+  nom: Analyse de réseaux dyadiques
+  categorie: methode
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-enap-reseau-certification]
+  validation: valide
+
+- id: comp-visualisation
+  nom: Visualisation avancée
+  categorie: methode
+  niveau_sans_ia: expert
+  niveau_avec_ia: expert
+  preuves: [exp-environics, pub-substack-resilience, exp-ta-icpsr, proj-nhl-matchups]
+  validation: valide
+
+- id: comp-programmation-sondages
+  nom: Conception et programmation de sondages (Qualtrics, SurveyJS)
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: expert
+  preuves: [exp-medaillon-ciusss, exp-clessn, exp-repensons-levis-2025, proj-datagotchi]
+  validation: valide
+
+- id: comp-geospatial
+  nom: Géospatial (GeoPandas, GeoParquet, DuckDB spatial, recensement StatCan)
+  categorie: methode
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-geo-marketing-api]
+  validation: valide
+
+- id: comp-vision-ordinateur
+  nom: Vision par ordinateur (YOLO, OpenCV)
+  categorie: methode
+  niveau_sans_ia: notions
+  niveau_avec_ia: intermediaire
+  preuves: [proj-puck-vision, proj-catan-vision]
+  validation: valide
+
+# --- IA et LLM ---
+
+- id: comp-llm-annotation
+  nom: Annotation et extraction par LLM
+  categorie: ia
+  niveau_sans_ia: avance
+  niveau_avec_ia: expert
+  preuves: [exp-vdq-stage, proj-atlas-opubliq, pub-prompting-the-machine, pub-gpt-party, pub-wp-checkbox-textbox, pub-chapitre-livre-outils-ia]
+  validation: valide
+
+- id: comp-rag-recherche-semantique
+  nom: RAG et recherche sémantique
+  categorie: ia
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-atlas-opubliq, proj-vdq-outil-sondages]
+  validation: valide
+
+- id: comp-fine-tuning
+  nom: Fine-tuning de LLM (Llama 3.1 8B, Unsloth, RunPod)
+  categorie: ia
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-silicon-sampling]
+  validation: valide
+
+- id: comp-agents-llm
+  nom: Agents LLM
+  categorie: ia
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-atlas-opubliq, proj-llm-council]
+  validation: valide
+
+- id: comp-dev-ia-pm
+  nom: Développement avec Claude Code (rôle de PM ou d'architecte technique)
+  categorie: ia
+  niveau_sans_ia: sans_objet
+  niveau_avec_ia: expert
+  preuves: [proj-rapport-vibecoding, conf-eiom-2025-claude-code, proj-medaillon-plateforme, proj-geo-marketing-api, proj-mega-agregateur-qc2026]
+  notes: "Rôle de PM ou d'architecte technique plus que de codeur ligne à ligne. Pratique de données : jamais de fichier de sondage ou de données clients envoyé directement au modèle ; l'agent exécute du code qui calcule localement ; exemples anonymisés seulement. Discours : voir ../positionnement/ia.md."
+  validation: valide
+
+# --- Cloud, web et infrastructure ---
+
+- id: comp-aws
+  nom: AWS
+  categorie: cloud
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [exp-clessn, proj-repensons-levis-plateforme, proj-medaillon-plateforme]
+  notes: "Infrastructure de recherche, déploiement, tableaux de bord de terrain, Lambda."
+  validation: valide
+
+- id: comp-azure
+  nom: Azure (AI Search, OpenAI, Container Apps, Service Bus, Blob, Entra ID, Static Web Apps)
+  categorie: cloud
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [exp-vdq-stage, proj-atlas-opubliq, proj-geo-marketing-api, proj-compare-toi-electeurs]
+  validation: valide
+
+- id: comp-iac
+  nom: Infrastructure en code (SST)
+  categorie: cloud
+  niveau_sans_ia: notions
+  niveau_avec_ia: intermediaire
+  preuves: [proj-medaillon-plateforme]
+  validation: valide
+
+- id: comp-typescript-web
+  nom: Web (TypeScript, React, Vite, Astro)
+  categorie: web
+  niveau_sans_ia: debutant
+  niveau_avec_ia: avance
+  preuves: [proj-medaillon-plateforme, proj-site-opubliq, proj-nhl-matchups, proj-panel-clustering-pdc, proj-poches-souverainistes]
+  validation: valide
+
+- id: comp-api-backend
+  nom: API et backend (FastAPI, DuckDB, Docker)
+  categorie: web
+  niveau_sans_ia: notions
+  niveau_avec_ia: avance
+  preuves: [proj-geo-marketing-api]
+  validation: valide
+
+- id: comp-ci
+  nom: CI et pipelines planifiés (GitHub Actions)
+  categorie: outil
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-nhl-matchups, proj-pool-tracker-espn]
+  validation: valide
+
+- id: comp-etl-pipelines
+  nom: Pipelines de données (ETL)
+  categorie: donnees
+  niveau_sans_ia: avance
+  niveau_avec_ia: expert
+  preuves: [exp-clessn, proj-medaillon-plateforme, proj-geo-marketing-api, proj-mega-agregateur-qc2026]
+  validation: valide
+
+- id: comp-scraping
+  nom: Scraping (Playwright)
+  categorie: donnees
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: [proj-veille-gouv]
+  validation: valide
+
+- id: comp-loi25
+  nom: Conformité Loi 25 (EFVP, hébergement au Québec)
+  categorie: donnees
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: intermediaire
+  preuves: [proj-geo-marketing-api]
+  validation: valide
+
+# --- Gestion et transversal ---
+
+- id: comp-gestion-projet
+  nom: Gestion de projet
+  categorie: transversal
+  niveau_sans_ia: avance
+  niveau_avec_ia: sans_objet
+  preuves: [exp-opubliq, exp-clessn, exp-medaillon-ciusss]
+  validation: valide
+
+- id: comp-mentorat-enseignement
+  nom: Mentorat et enseignement
+  categorie: transversal
+  niveau_sans_ia: avance
+  niveau_avec_ia: sans_objet
+  preuves: [exp-clessn, exp-ta-icpsr, exp-ta-pol7004, exp-ta-eiom, conf-eiom-2025-claude-code]
+  validation: valide
+
+- id: comp-demandes-subvention
+  nom: Demandes de subvention et d'approbation éthique
+  categorie: transversal
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: sans_objet
+  preuves: [exp-clessn, exp-opubliq, bourse-frqsc-maitrise]
+  validation: valide
+
+- id: comp-redaction
+  nom: Rédaction scientifique et de vulgarisation
+  categorie: transversal
+  niveau_sans_ia: avance
+  niveau_avec_ia: sans_objet
+  preuves: [pub-french-politics-pq, pub-environics-tech-emploi, pub-options-politiques-calcul-ia, pub-memoire]
+  validation: valide
+
+- id: comp-bilinguisme
+  nom: Travail en anglais
+  categorie: transversal
+  niveau_sans_ia: presque bilingue
+  niveau_avec_ia: sans_objet
+  preuves: [exp-environics, exp-ta-icpsr, pub-environics-tech-emploi]
+  validation: valide
+
+- id: comp-environnement-linux
+  nom: Environnement Debian, Neovim
+  categorie: outil
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: []  # environnement de travail quotidien ; aucune preuve externe
+  validation: valide

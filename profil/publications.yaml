@@ -1,0 +1,387 @@
+# `type` : article, chapitre, preprint, working_paper, memoire, vulgarisation, billet, rapport, conference, atelier, media.
+# `rang_auteur` : position de Hubert dans la liste d'auteurs (1 = premier auteur).
+
+# --- Articles révisés par les pairs ---
+
+- id: pub-religiosity-covid
+  type: article
+  annee: 2026
+  auteurs: "Pelletier, Proulx, Foisy, Drouin, Cadieux et Dufresne"
+  rang_auteur: 5
+  titre: "Religiosity in times of crisis: uncovering Canadians' responses to COVID-19 through terror management theory"
+  revue: Mental Health, Religion & Culture
+  doi: 10.1080/13674676.2025.2576779
+  reference: "29(3), 241-262"
+  facettes: [recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: pub-activisme-environnemental
+  type: article
+  annee: 2026
+  auteurs: "Bibeau-Gagnon, Pelletier, Cadieux et Dufresne"
+  rang_auteur: 3
+  titre: "Who Endorses Environmental Activism? Understanding Public Tolerance for Radical Environmental Action in Canada"
+  revue: Revue canadienne de science politique
+  doi: 10.1017/s0008423926101310
+  date_en_ligne: 2026-07-07
+  facettes: [recherche, politique, sondages]
+  poids: moyen
+  validation: valide
+
+- id: pub-prompting-the-machine
+  type: article
+  annee: 2026
+  auteurs: "Foisy, Proulx, Cadieux, Gilbert, Rivest, Bouillon et al."
+  rang_auteur: 3
+  titre: "Prompting the machine: introducing an LLM data extraction method for social scientists"
+  revue: Social Science Computer Review
+  reference: "44(3), 428-441"
+  doi: 10.1177/08944393251344865
+  date_en_ligne: 2025-05-27
+  facettes: [techno, recherche]
+  poids: moyen
+  validation: valide
+
+- id: pub-gpt-party
+  type: article
+  annee: 2026
+  date_en_ligne: 2024-12
+  auteurs: "Foisy, Drouin, Pelletier, Rivest, Cadieux et Dufresne"
+  rang_auteur: 5
+  titre: "Ain't no party like a GPT party: assessing OpenAI's GPT political alignment classification capabilities"
+  revue: Journal of Information Technology & Politics
+  reference: "23(2), 189-201"
+  doi: 10.1080/19331681.2024.2444587
+  facettes: [techno, politique, recherche]
+  poids: moyen
+  validation: valide
+
+- id: pub-just-transition
+  type: article
+  annee: 2026
+  auteurs: "Gajevic Sayegh, Cadieux, Ouellet, Desrosiers et Dufresne"
+  rang_auteur: 2
+  titre: "Just transition and social acceptability: a Canadian case"
+  revue: Ethics, Policy & Environment
+  reference: "29(1), 101-124"
+  doi: 10.1080/21550085.2025.2496835
+  date_en_ligne: 2025-05-08
+  facettes: [recherche, sondages]
+  poids: moyen
+  validation: valide
+
+- id: pub-citizen-forecasting
+  type: article
+  annee: 2025
+  auteurs: "Thompson-Collart, Cadieux, Ouellet et Dufresne"
+  rang_auteur: 2
+  titre: "Lessons learned: Citizen forecasting, candidate resignations, and the 2024 US presidential election"
+  revue: "PS: Political Science & Politics"
+  reference: "58(2), 312-317"
+  doi: 10.1017/s1049096524000969
+  date_en_ligne: 2024-10-15
+  facettes: [politique, recherche]
+  poids: moyen
+  validation: valide
+
+- id: pub-french-politics-pq
+  type: article
+  annee: 2025
+  date_en_ligne: 2024-12
+  auteurs: "Cadieux, Ouellet, Vincent, Gilbert, Pelletier et Dufresne"
+  rang_auteur: 1
+  titre: "Electoral dynamics in Quebec: analyzing the rise of the Parti Québécois through the lens of potential for growth"
+  revue: French Politics
+  reference: "23(1), 84-103"
+  doi: 10.1057/s41253-024-00274-z
+  facettes: [politique, recherche]
+  poids: fort  # premier auteur
+  validation: valide
+
+- id: pub-cohortes-souverainete
+  type: article
+  statut: accepte  # accepté par la revue, publication retardée par des délais administratifs
+  annee: TROU
+  auteurs: "Proulx, Cadieux, Bouillon, Foisy et Dufresne"
+  rang_auteur: 2
+  titre: "Zooming on the Zoomers: A Comprehensive Analysis of Quebec's Shifting Secession Dynamics"
+  resume: "Attitudes de la génération Z envers la souveraineté du Québec comparées aux autres générations (effets de cohorte, de période et de cycle de vie) ; modèle prédictif et analyse géographique. Chez la génération Z, le Grand Montréal est moins attaché au fédéralisme, et les profils linguistiques diffèrent peu."
+  origine: "Article issu d'une présentation à la SPSA 2024."
+  revue: TROU
+  code: "~/code/article_spsa2024_nationalisme"
+  facettes: [politique, recherche]
+  poids: moyen
+  validation: valide
+
+- id: pub-pcq-croissance
+  type: article
+  annee: 2022
+  auteurs: "Déry, Bibeau, Cadieux et Dufresne"
+  rang_auteur: 3
+  titre: "Sur le potentiel de croissance du Parti conservateur du Québec"
+  revue: Revue canadienne de science politique
+  reference: "55(4), 972-977"
+  facettes: [politique, recherche]
+  poids: faible
+  validation: valide_lot
+
+# --- Chapitre ---
+
+- id: pub-chapitre-trudeau
+  type: chapitre
+  annee: 2025
+  auteurs: "Fortier-Chouinard, Cadieux, Carignan, Drouin et Birch"
+  rang_auteur: 2
+  titre: "Committing without Counting? Untangling the 697 Promises of Justin Trudeau's Minority Governments"
+  ouvrage: "Assessing Justin Trudeau's Minority Governments (2019–2025)"
+  doi: 10.1515/9782766305339-007
+  pages: "15-32 (chapitre 1)"
+  facettes: [politique, recherche]
+  poids: moyen
+  validation: valide
+
+# --- Prépublications et working papers ---
+
+- id: pub-pledge-salience
+  type: preprint
+  annee: 2024
+  auteurs: "Tremblay-Antoine, Cadieux, Dufresne et Cloutier"
+  rang_auteur: 2
+  titre: "Pledge Salience: A Scoping Review of a Non-consensual Concept"
+  lieu: OSF
+  facettes: [politique, recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: pub-political-overconfidence
+  type: preprint
+  annee: TROU
+  auteurs: "Temporão, Foisy, Drouin, Cadieux et Dufresne"
+  rang_auteur: 4
+  titre: "A Behavioral Instrument for Measuring Political Overconfidence: Implications for Understanding Affective Polarization in the United States"
+  lieu: OSF
+  facettes: [politique, recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: pub-wp-silicon-sampling
+  type: working_paper
+  statut: en_cours
+  auteurs: "TROU (avec Justin Savoie)"
+  titre: "Sans titre (working paper en cours)"
+  resume: "Fine-tuning de Llama 3.1 8B sur CES / Démocratie Checkup 2024 ; le fine-tuning direct bat le prompting."
+  projet: proj-silicon-sampling
+  facettes: [techno, sondages, recherche]
+  poids: moyen
+  validation: valide
+
+- id: pub-wp-checkbox-textbox
+  type: working_paper
+  statut: en_cours
+  auteurs: "TROU (équipe CLESSN : Étienne Proulx et autres)"
+  rang_auteur: 4  # selon Hubert, à confirmer
+  titre: "Sans titre (from_checkbox_to_textbox)"
+  resume: "Valider l'usage de LLM (Gemini) pour nettoyer et coder les réponses ouvertes de sondages : convergence avec les réponses fermées (analyses factorielles, appariement), qualité des réponses, nuance ajoutée."
+  code: "~/code/from_checkbox_to_textbox"
+  facettes: [sondages, techno, recherche]
+  poids: faible
+  validation: valide
+
+- id: pub-chapitre-livre-outils-ia
+  type: chapitre
+  statut: a_paraitre  # site du livre pas encore publié
+  auteurs: "Rivest, Foisy et Cadieux"
+  rang_auteur: 3
+  titre: "Outils d'intelligence artificielle"
+  ouvrage: "Outils de recherche en sciences sociales numériques (livre collectif, Université Laval)"
+  numero_chapitre: TROU  # chapitre 8 dans le repo ; 6 ou 9 dans la version finale selon Hubert
+  code: "~/code/livre-outils"
+  facettes: [techno, recherche]
+  poids: moyen
+  validation: valide
+
+# --- Mémoire ---
+
+- id: pub-memoire
+  type: memoire
+  annee: 2026
+  auteurs: Cadieux
+  rang_auteur: 1
+  titre: "Opérationnaliser le potentiel de croissance des partis politiques dans un contexte multipartite : application aux élections canadiennes de 2011 à 2021"
+  lieu: Université Laval
+  lien: https://corpus.ulaval.ca/entities/publication/6f3a9224-6dc2-437a-83ee-0bfdd338a5b1
+  code: "~/code/memoire_pot_growth (reproductible ; package R potgrowth sur GitHub hubcad25/potgrowth)"
+  resume: "Mémoire par articles. Article 1 : cinq indicateurs de propension au vote, validation de leur convergence vers une dimension latente commune, transformation en courbes de probabilité calibrées sur quatre élections fédérales canadiennes (2011-2021, données CES). Article 2 : simulations Monte Carlo de scénarios électoraux ; le potentiel est défini comme le 97,5e percentile des distributions, validé par calibration empirique et validation nomologique sur la vague orange du NPD en 2011. Cadre de validité conceptuelle d'Adcock et Collier (2001)."
+  methodes: [analyse factorielle, calibration de probabilités, simulation Monte Carlo, validation de mesure]
+  formation: form-maitrise-ulaval
+  facettes: [politique, recherche, sondages]
+  poids: fort
+  validation: valide
+
+# --- Vulgarisation ---
+
+- id: pub-options-politiques-calcul-ia
+  type: vulgarisation
+  date: 2026-04-08
+  auteurs: "Beaumier et Cadieux"
+  rang_auteur: 2
+  lien: https://policyoptions.irpp.org/fr/2026/04/ia-infrastructure-publique/
+  titre: "Le Canada doit développer sa propre puissance de calcul en IA"
+  revue: Options politiques
+  experience: exp-enap
+  facettes: [public, techno]
+  poids: moyen
+  validation: valide
+
+# --- Substack Canadian Survey Stuff (Andrew Parkin, Environics) ---
+
+- id: pub-substack-who-wants-children
+  type: billet
+  date: 2025-03-21
+  auteurs: "Parkin et Cadieux"
+  rang_auteur: 2
+  titre: "Who wants to have children?"
+  contribution: Analyse approfondie des données par moi.
+  donnees: "Sondage YMCA in Canada 2024 (Environics et YMCA Canada)"
+  lien: https://cdnsurveystuff.substack.com/p/who-wants-to-have-children
+  experience: exp-environics
+  facettes: [sondages]
+  poids: moyen
+  validation: valide
+
+- id: pub-substack-culture-community
+  type: billet
+  date: 2025-04-10
+  auteurs: "Parkin et Cadieux"
+  rang_auteur: 2
+  titre: "Culture and community: a second look at who wants to have children"
+  lien: https://cdnsurveystuff.substack.com/p/culture-and-community-a-second-look
+  experience: exp-environics
+  facettes: [sondages]
+  poids: faible
+  validation: valide_lot
+
+- id: pub-substack-resilience
+  type: billet
+  date: 2025-06-26
+  auteurs: "Parkin et Cadieux"
+  rang_auteur: 2
+  titre: "Resilience, well-being and economic security"
+  contribution: Modèle de forêt aléatoire et cartes de chaleur construits par moi.
+  lien: https://cdnsurveystuff.substack.com/p/resilience-well-being-and-economic
+  experience: exp-environics
+  facettes: [sondages]
+  poids: moyen
+  validation: valide
+
+- id: pub-substack-reasons-no-children
+  type: billet
+  date: 2026-04-23
+  auteurs: "Parkin, Cadieux et Bouillon"
+  rang_auteur: 2
+  titre: "Reasons for not having children"
+  lien: https://cdnsurveystuff.substack.com/p/reasons-for-not-having-children
+  experience: exp-environics
+  facettes: [sondages]
+  poids: faible
+  validation: valide_lot
+
+# --- Rapport ---
+
+- id: pub-environics-tech-emploi
+  type: rapport
+  date: 2025-12-15
+  auteurs: Environics Institute (publication non signée)
+  rang_auteur: null
+  credit: "Remerciements : « This report was prepared using research and analysis conducted by Hubert Cadieux and Alexandre Boullion, graduate students in the Department of Political Science at Université Laval. »"
+  attention: "Ne pas présenter Hubert comme auteur ni premier auteur. Formulation juste : recherche et analyse du rapport, créditées dans les remerciements."
+  titre: "Rising concerns about the impact of new technologies on employment"
+  editeur: "Environics Institute, Diversity Institute (TMU), Centre des Compétences futures"
+  donnees: "Survey on Employment and Skills, vague 8 (n = 5 603, printemps 2025)"
+  methodes: "Échelles par analyse factorielle en axes principaux (exposition à l'IA, pessimisme économique) ; régressions avec erreurs robustes par vague ; tests de spécification pour les données d'IA manquantes (imputation) ; interactions avec la vague."
+  resultat: "L'exposition à l'IA explique mieux l'inquiétude face à l'automatisation (27 % → 42 % de 2023 à 2025) que le pessimisme économique."
+  lien: https://environicsinstitute.org/rising-concerns-about-the-impact-of-new-technologies-on-employment/
+  experience: exp-environics
+  facettes: [sondages, techno, recherche]
+  poids: fort  # analyse entièrement faite par Hubert et Alexandre, créditée
+  validation: valide
+
+# --- Conférences et ateliers ---
+
+- id: conf-spsa-2023
+  type: conference
+  annee: 2023
+  lieu: SPSA, St. Pete Beach (FL)
+  titre: "On Volatility and Parties' Potential for Growth in Multiparty Systems: The Case of the 2022 Quebec Election"
+  facettes: [politique, recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: conf-spsa-2024
+  type: conference
+  annee: 2024
+  lieu: SPSA, Nouvelle-Orléans
+  titre: "Forecasting Election Swings in Multiparty Systems Using Underlying Potential for Growth of Parties"
+  facettes: [politique, recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: conf-cecd-2024
+  type: conference
+  annee: 2024
+  lieu: CECD, Québec
+  titre: "Optimizing Electoral Strategies in Quebec's Multiparty System: A Machine Learning Approach to Assessing Party Potential for Growth"
+  facettes: [politique, techno, recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: conf-2022-transition-energetique
+  type: conference
+  annee: 2022
+  lieu: Montréal
+  titre: "Can Fairness and Green Jobs Accelerate the Energy Transition in Canada?"
+  role: coauteur (présentation de Gajevic Sayegh)
+  facettes: [recherche]
+  poids: faible
+  validation: valide_lot
+
+- id: conf-eiom-2025-claude-code
+  type: atelier
+  date: 2025-08  # vers fin août
+  lieu: EIOM, ESEI, Université Laval
+  titre: "Démarrer un projet d'analyse de données avec Claude Code"
+  contenu: "Installation et configuration, démo en direct d'un projet d'analyse en R à partir de zéro (CES 2021), exercices pratiques."
+  preuves: ["~/code/presentation_eiom_2025"]
+  facettes: [techno]
+  poids: moyen  # montre l'usage encadré de l'IA et la capacité à former
+  validation: valide
+
+# --- Médias (2022, données CLESSN) ---
+
+- id: media-devoir-climat
+  type: media
+  annee: 2022
+  media: Le Devoir
+  titre: "L'importance du climat varie selon l'allégeance politique"
+  facettes: [politique]
+  poids: faible
+  validation: valide_lot
+
+- id: media-metro-polarisation
+  type: media
+  annee: 2022
+  media: Journal Métro
+  titre: "La polarisation en données : un portrait plus nuancé qu'on pourrait le croire"
+  facettes: [politique]
+  poids: faible
+  validation: valide_lot
+
+- id: media-soleil-legault
+  type: media
+  annee: 2022
+  media: Le Soleil
+  titre: "Legault évite de parler d'économie en ligne, mais domine quand même sur cet enjeu"
+  facettes: [politique]
+  poids: faible
+  validation: valide_lot

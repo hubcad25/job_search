@@ -1,0 +1,115 @@
+- id: form-maitrise-ulaval
+  titre: Maîtrise en science politique (avec mémoire)
+  organisation: Université Laval
+  periode: {debut: 2024, fin: 2026}
+  statut: terminee
+  depot: 2026-01  # dépôt début janvier 2026 ; diplôme au 1er semestre 2026
+  details:
+    - "Direction : Yannick Dufresne."
+    - "Mémoire par articles (voir pub-memoire)."
+    - "Évaluation du jury : Excellent (Marc-André Bodet), Excellent (Yannick Dufresne), Bien (Shannon Dinan)."
+    - "Cours : apprentissage automatique et approche bayésienne en science politique, analyse quantitative, représentation des intérêts, communication politique, philosophie politique."
+  attention: "Ne pas écrire « mention Excellent » pour la maîtrise : le jury n'était pas unanime (2 Excellent, 1 Bien)."
+  facettes: [politique, recherche, techno]
+  poids: fort
+  preuves: [pub-memoire, "~/code/memoire_pot_growth/redaction/commentaires_jury/"]
+  validation: valide
+
+- id: form-bac-eco-pol-ulaval
+  titre: Baccalauréat intégré en économie et politique
+  organisation: Université Laval
+  periode: {debut: 2020, fin: 2023}
+  statut: termine
+  details:
+    - Mention d'honneur de la FSS.
+    - "Projet de recherche (conception d'enquête, collecte, analyse, présentation) sur les perceptions étudiantes des aspects économiques du tramway de Québec."
+  facettes: [politique, sondages]
+  poids: moyen
+  validation: valide
+
+- id: form-eiom
+  titre: Diplôme de l'École interdisciplinaire outils et méthodes (EIOM)
+  organisation: ESEI, Université Laval
+  periode: {debut: 2022, fin: 2023}
+  statut: termine
+  details:
+    - "Parcours causalité et expérimentation : groupes synthétiques, double différence, régression par discontinuité, appariement."
+    - "Parcours science des données : modélisation, prédiction, réduction de dimensionnalité."
+  facettes: [techno, recherche]
+  poids: moyen
+  validation: valide
+
+- id: form-vip-voa
+  titre: Programmes VIP et VOA
+  organisation: Entrepreneuriat ULaval
+  periode: {debut: 2024, fin: 2024}
+  statut: termine
+  details:
+    - "Comptabilité, prévisions financières, pitch investisseurs, proposition de valeur, analyse de la concurrence."
+  facettes: [techno]
+  poids: faible
+  validation: valide_lot
+
+- id: form-bootcamp-ia-iid
+  titre: Bootcamp IA
+  organisation: IID, Université Laval
+  periode: {debut: 2023, fin: 2023}
+  statut: termine
+  details:
+    - "scikit-learn, PyTorch, IA responsable, optimisation bayésienne."
+  facettes: [techno]
+  poids: faible
+  validation: valide_lot
+
+- id: form-dec-cegep-sh
+  titre: DEC sciences humaines, profil administration
+  organisation: Cégep de Saint-Hyacinthe
+  periode: {debut: 2017, fin: 2020}
+  statut: termine
+  facettes: []
+  poids: faible
+  validation: valide_lot
+
+- id: form-aws-azure-mslearn
+  titre: Formations en ligne AWS et Azure
+  organisation: Microsoft Learn (compte de la Ville de Québec, plus accessible)
+  periode: {debut: 2026, fin: 2026}
+  statut: termine
+  details:
+    - Modules suivis pendant le stage à la Ville de Québec ; sujets non retrouvés.
+    - Aucune certification.
+  facettes: [techno]
+  poids: faible
+  notes: Ne pas présenter comme une certification.
+  validation: valide_lot
+
+- id: bourse-frqsc-maitrise
+  titre: Bourse de maîtrise en recherche
+  organisation: FRQSC
+  periode: {debut: 2024, fin: 2026}
+  montant: "21 000 $ par année pendant 2 ans (42 000 $ au total)"
+  facettes: [recherche]
+  poids: moyen
+  validation: valide
+
+- id: bourse-obvia-bac
+  titre: Bourse d'appui à la relève au baccalauréat
+  organisation: OBVIA
+  periode: {debut: 2021, fin: 2022}
+  facettes: [recherche, techno]
+  poids: faible
+  validation: valide_lot
+
+- id: form-autodidacte-vibecoding
+  titre: Autoformation continue au développement assisté par l'IA (vibe coding)
+  organisation: autodidacte
+  periode: {debut: TROU, fin: null}
+  statut: en_cours
+  details:
+    - "Veille personnelle sur le vibe coding et les pratiques d'agents (context engineering, conception spec-driven, skills, vérification)."
+    - "Étude de la documentation de la formation NordAI sur le vibe coding (juin 2026), reçue d'un participant, dont une évaluation de maturité vibe coding d'un projet de la CLESSN."
+  attention: "Hubert n'a PAS assisté à la formation NordAI : il en a étudié la documentation. Ne jamais écrire qu'il l'a suivie."
+  preuves: ["~/Downloads/10_NordAI_Formation_Vibe_Coding.pptx", "~/Downloads/11_evaluation_vibe_coding_CLESSN.md", proj-rapport-vibecoding, conf-eiom-2025-claude-code]
+  facettes: [techno]
+  poids: faible
+  validation: valide

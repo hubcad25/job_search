@@ -1,0 +1,33 @@
+nom: Hubert Cadieux
+adresse: 8178 rue Lajeunesse, Montréal
+courriels:
+  - hubertcadieux@gmail.com
+  - hubertcadieux@opubliq.com
+  - hubert.cadieux.1@ulaval.ca
+telephone: "(438) 825-3958"
+liens:
+  linkedin: https://www.linkedin.com/in/hubert-cadieux-7172571a0/
+  github: https://github.com/hubcad25
+  portfolio: https://hubcad25.github.io/portfolio/
+  google_scholar: TROU  # URL à ajouter
+note_cv_en_ligne: "Le CV en ligne date d'avant 2025 : maîtrise « en cours », pas de VdQ, Environics, ENAP. Ne pas s'y fier."
+mobilite: Prêt à travailler sur place à Montréal, autant de jours que l'employeur le souhaite.
+objectif: Emploi stable à temps plein dans mon domaine ; Opubliq reste une activité de consultation le soir et la fin de semaine.
+langues:
+  - langue: français
+    niveau: langue maternelle
+  - langue: anglais
+    niveau: presque bilingue (lecture et écriture courantes, oral très avancé ; « Fluent » sur un CV anglais)
+titres_utilises:
+  - titre: Scientifique de données sociales numériques
+    contexte: Ville de Québec, mars 2026
+  - titre: "Data Scientist | Predictive Modeling"
+    contexte: Candidature Teamworks Intelligence, fév. 2026
+candidatures_passees:
+  - organisation: Teamworks Intelligence
+    date: 2026-02-06
+    documents: CV anglais abrégé + lettre
+    resultat: aucun retour
+indicateurs_recherche:
+  google_scholar: "45 citations, indice h 5, indice i10 2 (oct. 2026)"
+validation: a_valider
