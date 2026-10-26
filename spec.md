@@ -105,7 +105,7 @@ Les CSV bruts de collecte vont dans `data/raw/` (non édités à la main).
 ## Stack et conventions
 
 - Python avec `uv`, scripts dans `scripts/`. Polars ou pandas, au choix.
-- Chaque script est relançable sans créer de doublons (identifiants déterministes : nom normalisé + domaine du site, URL normalisée pour les offres).
+- Chaque script est relançable sans créer de doublons (identifiants déterministes : `org_id` = id fourni par la source (`gc-…`, `qc-…`, `mtl-…`), sinon domaine du site sans « www. », sinon `neq-<NEQ>`, sinon nom normalisé ; une organisation est aussi retrouvée par son NEQ ; URL normalisée pour les offres). Ajouts à la main : `data/ajouts_manuels.csv`, lu par `scripts/fusion_orgs.py`.
 - Le scoring par LLM doit citer les ids de `profil/` qu'il utilise, pour être vérifiable.
 
 ## Premier cas d'usage

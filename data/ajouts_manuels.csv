@@ -1,0 +1,61 @@
+org_id,nom,type,secteur,facette_principale,ville,site_web,source,date_collecte,notes
+,Winnia,entreprise,technologie sportive,sport,Montréal,https://winnia.com/fr/company,hubert,2026-10-23,À inclure absolument (demandé par Hubert)
+,Société de transport de Montréal (STM),public,paramunicipal,public,Montréal,https://www.stm.info,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Société d'habitation et de développement de Montréal (SHDM),public,paramunicipal,public,Montréal,https://www.shdm.org,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Office municipal d'habitation de Montréal (OMHM),public,paramunicipal,public,Montréal,https://www.omhm.qc.ca,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Agence de mobilité durable de Montréal,public,paramunicipal,public,Montréal,https://www.agencemobilitedurable.ca,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Conseil des arts de Montréal,public,paramunicipal,public,Montréal,https://www.artsmontreal.org,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Société du parc Jean-Drapeau,public,paramunicipal,public,Montréal,https://www.parcjeandrapeau.com,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,BIXI Montréal,public,paramunicipal,public,Montréal,https://bixi.com,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Technoparc Montréal,public,paramunicipal,public,Montréal,https://www.technoparc.com,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Commission des services électriques de Montréal,public,paramunicipal,public,Montréal,https://www.csem.qc.ca,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,"Pointe-à-Callière, Cité d'archéologie et d'histoire de Montréal",public,paramunicipal,public,Montréal,https://pacmusee.qc.ca,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Corporation de gestion des marchés publics de Montréal,public,paramunicipal,public,Montréal,https://www.marchespublics-mtl.com,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Corporation d'habitation Jeanne-Mance,public,paramunicipal,public,Montréal,https://www.chjm.ca,manuel_paramunicipal,2026-10-26,"Paramunicipal ; liste établie par Claude, appartenance au périmètre comptable de la Ville à confirmer"
+,Montréal International,osbl,développement économique,public,Montréal,https://www.montrealinternational.com,manuel_paramunicipal,2026-10-26,Organisme partenaire de la Ville de Montréal (hors périmètre)
+,Tourisme Montréal,osbl,développement économique,public,Montréal,https://www.mtl.org,manuel_paramunicipal,2026-10-26,Organisme partenaire de la Ville de Montréal (hors périmètre)
+,PME MTL,osbl,développement économique,public,Montréal,https://pmemtl.com,manuel_paramunicipal,2026-10-26,Organisme partenaire de la Ville de Montréal (hors périmètre)
+,Communauté métropolitaine de Montréal (CMM),public,organisme métropolitain,public,Montréal,https://cmm.qc.ca,manuel_paramunicipal,2026-10-26,Organisme métropolitain
+,Autorité régionale de transport métropolitain (ARTM),public,organisme métropolitain,public,Montréal,https://www.artm.quebec,manuel_paramunicipal,2026-10-26,Organisme métropolitain
+,exo,public,organisme métropolitain,public,Montréal,https://exo.quebec,manuel_paramunicipal,2026-10-26,Organisme métropolitain
+,"Groupe CH (Canadiens de Montréal, Rocket de Laval, evenko)",entreprise,sport – club professionnel,sport,Montréal,https://www.nhl.com/fr/canadiens,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Alouettes de Montréal,entreprise,sport – club professionnel,sport,Montréal,https://www.montrealalouettes.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,CF Montréal,entreprise,sport – club professionnel,sport,Montréal,https://www.cfmontreal.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Victoire de Montréal (LPHF),entreprise,sport – club professionnel,sport,Montréal,https://www.thepwhl.com/fr/montreal,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Capitales de Québec,entreprise,sport – club professionnel,sport,Québec,https://www.capitalesdequebec.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Grand Prix du Canada,entreprise,sport – événement sportif,sport,Montréal,https://www.gpcanada.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Tennis Canada (Omnium Banque Nationale),osbl,sport – fédération et événement,sport,Montréal,https://www.tenniscanada.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Loto-Québec (Mise-o-jeu),public,sport – paris sportifs,sport,Montréal,https://www.lotoquebec.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Institut national du sport du Québec (INS Québec),osbl,sport – haute performance,sport,Montréal,https://www.insquebec.org,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Réseau du sport étudiant du Québec (RSEQ),osbl,sport – sport étudiant,sport,Montréal,https://rseq.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,RDS,entreprise,sport – média sportif,sport,Montréal,https://www.rds.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,TVA Sports,entreprise,sport – média sportif,sport,Montréal,https://www.tvasports.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,BPM Sports,entreprise,sport – média sportif,sport,Montréal,https://www.bpmsports.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Sportsnet,entreprise,sport – média sportif,sport,Toronto,https://www.sportsnet.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,The Athletic,entreprise,sport – média sportif,sport,,https://www.nytimes.com/athletic,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Ligue de hockey junior Maritimes Québec (LHJMQ),osbl,sport – ligue junior,sport,Boucherville,https://lhjmq.qc.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Drakkar de Baie-Comeau,entreprise,sport – club junior (LHJMQ),sport,Baie-Comeau,https://www.ledrakkar.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Armada de Blainville-Boisbriand,entreprise,sport – club junior (LHJMQ),sport,Boisbriand,https://www.armadahockey.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Saguenéens de Chicoutimi,entreprise,sport – club junior (LHJMQ),sport,Saguenay,https://www.sagueneens.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Voltigeurs de Drummondville,entreprise,sport – club junior (LHJMQ),sport,Drummondville,https://www.voltigeurs.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Olympiques de Gatineau,entreprise,sport – club junior (LHJMQ),sport,Gatineau,https://www.olympiquesdegatineau.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+lhjmq-remparts,Remparts de Québec,entreprise,sport – club junior (LHJMQ),sport,Québec,https://chl.ca/lhjmq-remparts/,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Océanic de Rimouski,entreprise,sport – club junior (LHJMQ),sport,Rimouski,https://www.oceanic.qc.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Huskies de Rouyn-Noranda,entreprise,sport – club junior (LHJMQ),sport,Rouyn-Noranda,https://www.huskies.qc.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Cataractes de Shawinigan,entreprise,sport – club junior (LHJMQ),sport,Shawinigan,https://www.cataractes.qc.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+lhjmq-phoenix,Phoenix de Sherbrooke,entreprise,sport – club junior (LHJMQ),sport,Sherbrooke,https://chl.ca/lhjmq-phoenix/,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Foreurs de Val-d'Or,entreprise,sport – club junior (LHJMQ),sport,Val-d'Or,https://www.foreurs.qc.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Tigres de Victoriaville,entreprise,sport – club junior (LHJMQ),sport,Victoriaville,https://www.tigresvictoriaville.com,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Carabins de l'Université de Montréal,universite,sport – sport universitaire,sport,Montréal,https://carabins.umontreal.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Stingers de Concordia,universite,sport – sport universitaire,sport,Montréal,,manuel_sport,2026-10-26,Liste sport établie par Claude ; site web à trouver
+,Redbirds et Martlets de McGill,universite,sport – sport universitaire,sport,Montréal,https://mcgillathletics.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Citadins de l'UQAM,universite,sport – sport universitaire,sport,Montréal,https://citadins.uqam.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Rouge et Or de l'Université Laval,universite,sport – sport universitaire,sport,Québec,https://rougeetor.ulaval.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Vert & Or de l'Université de Sherbrooke,universite,sport – sport universitaire,sport,Sherbrooke,https://www.usherbrooke.ca/vert-et-or/,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Patriotes de l'UQTR,universite,sport – sport universitaire,sport,Trois-Rivières,https://www.uqtr.ca/patriotes,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Gaiters de Bishop's,universite,sport – sport universitaire,sport,Sherbrooke,https://gaiters.ca,manuel_sport,2026-10-26,Liste sport établie par Claude
+,Sportlogiq,entreprise,sport – analytique sportive,sport,Montréal,https://www.sportlogiq.com,manuel_sport,2026-10-26,Technologie sportive (vision par ordinateur et analytique hockey/soccer/football)
+,LiveBarn,entreprise,sport – diffusion vidéo,sport,Montréal,https://www.livebarn.com,manuel_sport,2026-10-26,Technologie sportive ; acquise par Ascent Sports Group en mars 2026 (Tracxn)
+,Spordle,entreprise,sport – logiciel de gestion,sport,,https://www.spordle.com,manuel_sport,2026-10-26,Technologie sportive (inscriptions et gestion des organisations sportives) ; ville à vérifier
+,Hexoskin,entreprise,sport – vêtements intelligents,sport,Montréal,https://hexoskin.com,manuel_sport,2026-10-26,Technologie sportive et santé (biométrie)
+,Lightspeed (Lightspeed Golf / ex-Chronogolf),entreprise,sport – logiciel de gestion,sport,Montréal,https://www.lightspeedhq.com,manuel_sport,2026-10-26,Chronogolf acquise par Lightspeed en 2019 ; grande entreprise techno de Montréal
