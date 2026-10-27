@@ -24,7 +24,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `exp-vdq-stage` | Stagiaire en analyse de données sociales — Ville de Québec | 2026-05–2026-09 | public, sondages, techno | fort | valide |
 | `exp-opubliq` | Cofondateur et PDG — Opubliq inc. | 2024–auj. | sondages, politique, techno | fort | valide |
 | `exp-medaillon-ciusss` | Mandat de sondage pour le Comité des usagers du CIUSSS de l'Est-de-l'Île-de-Montréal — Médaillon Groupe Conseils | 2026-02–2026-07 | sondages, public, techno | fort | valide |
-| `exp-environics` | Analyste de données (contrats à temps partiel) — Environics Institute | 2025-01–auj. | sondages, recherche | fort | valide |
+| `exp-environics` | Analyste de données, consultant externe (contrats à temps partiel, travailleur autonome) — Environics Institute | 2025-01–auj. | sondages, recherche | fort | valide |
 | `exp-repensons-levis-2025` | Analyste de campagne, élection municipale 2025 — Repensons Lévis | 2025-07–2025-11 | politique, sondages, techno | fort | valide |
 | `exp-qff-2025` | Analyste de données de sondage, élection municipale 2025 — Québec forte et fière | 2024-12–2025-11 | politique, sondages | faible | valide |
 | `exp-enap` | Auxiliaire de recherche (temps partiel) — ENAP | 2025-10–2026-05 | recherche, public, techno | moyen | valide |
@@ -63,7 +63,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `proj-sondr` | Package R sondr (et autres packages internes) |  | sondages, techno | faible | valide_lot |
 | `proj-polimetre-outil` | Structuro, outil d'annotation et d'export des promesses (Polimètre) |  | politique, techno | moyen | valide |
 | `proj-shiny-clessn` | Apps Shiny CLESSN (Datagotchi sandbox, shinygotchi, catalogue CAPP) |  | techno, politique | faible | valide_lot |
-| `proj-mega-agregateur-qc2026` | Méga-agrégateur Québec 2026 (pool élection) |  | politique, techno | fort | valide |
+| `proj-mega-agregateur-qc2026` | Méga-agrégateur Québec 2026 (pool élection) |  | politique, techno | moyen | valide |
 | `proj-compare-toi-electeurs` | « Compare-toi aux électeurs québécois » (CES 2025) |  | politique, techno | faible | valide_lot |
 | `proj-poches-souverainistes` | Poches souverainistes |  | politique | faible | valide_lot |
 | `proj-nhl-matchups` | NHL Matchups |  | sport, techno | moyen | valide |
@@ -171,7 +171,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-api-backend` | API et backend (FastAPI, DuckDB, Docker) |  | web | notions / avance | valide |
 | `comp-ci` | CI et pipelines planifiés (GitHub Actions) |  | outil | intermediaire / avance | valide |
 | `comp-etl-pipelines` | Pipelines de données (ETL) |  | donnees | avance / expert | valide |
-| `comp-scraping` | Scraping (Playwright) |  | donnees | intermediaire / avance | valide |
+| `comp-scraping` | Scraping (Playwright, BeautifulSoup) |  | donnees | intermediaire / avance | valide |
 | `comp-loi25` | Conformité Loi 25 (EFVP, hébergement au Québec) |  | donnees | intermediaire / intermediaire | valide |
 | `comp-gestion-projet` | Gestion de projet |  | transversal | avance / sans_objet | valide |
 | `comp-mentorat-enseignement` | Mentorat et enseignement |  | transversal | avance / sans_objet | valide |
@@ -179,3 +179,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-redaction` | Rédaction scientifique et de vulgarisation |  | transversal | avance / sans_objet | valide |
 | `comp-bilinguisme` | Travail en anglais |  | transversal | presque bilingue / sans_objet | valide |
 | `comp-environnement-linux` | Environnement Debian, Neovim |  | outil | avance / avance | valide |
+| `comp-power-bi` | Power BI |  | outil | notions / notions | valide |
+| `comp-excel` | Excel |  | outil | intermediaire / intermediaire | valide |
+| `comp-crm` | CRM (dont Dynamics 365) |  | outil | notions / notions | valide |
+| `comp-google-analytics` | Google Analytics |  | outil | notions / notions | valide |

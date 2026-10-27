@@ -149,8 +149,8 @@
   titre: Outil d'accès aux données de sondage (Ville de Québec)
   cadre: employeur
   experience: exp-vdq-stage
-  description: "Application Shiny qui interroge un index Azure AI Search ; classement LLM des questions par produits et services municipaux."
-  techno: ["R Shiny", "Azure AI Search", "LLM"]
+  description: "Base unique visant à regrouper tous les sondages de la Ville. Index Azure AI Search créé par Hubert et alimenté par scripts Python ; application Shiny qui l'interroge pour chercher dans les questions et en visualiser les résultats (l'atout principal selon Hubert, 2026-10-27) ; classement des questions par produits et services municipaux avec Azure OpenAI."
+  techno: ["R Shiny", "Azure AI Search", "Azure OpenAI", "Python"]
   role: responsable
   statut: actif  # poursuivi par la superviseure
   montrable: captures
@@ -229,7 +229,7 @@
   realisations:
     - "USA 2024 : responsable du modèle. Conception du sondage pilote, modèle de régression ordinale, mises à jour pendant la campagne, outil Shiny interne pour tester le modèle en équipe."
     - "Élections précédentes (fédérale 2021, Québec) : impliqué, mais pas responsable du modèle."
-  techno: ["R", "Shiny"]
+  techno: ["R", "Shiny", "Python"]  # Python : intégration du modèle prédictif dans l'app (dit par Hubert le 2026-10-27)
   role: responsable  # du modèle pour USA 2024 seulement
   attention: "Ne pas présenter Hubert comme créateur de Datagotchi. Formulation juste : responsable du modèle pour l'élection américaine de 2024, en partenariat avec Léger."
   liens: ["https://www.datagotchi.com/"]
@@ -299,7 +299,7 @@
   statut: archive
   montrable: public
   facettes: [politique, techno]
-  poids: fort
+  poids: moyen  # projet d'environ une journée ; résultat frappant mais court
   validation: valide
 
 - id: proj-compare-toi-electeurs
@@ -459,9 +459,9 @@
 
 - id: proj-tramway-predictif
   titre: Soutien au tramway de Québec, analyse prédictive
-  cadre: TROU
+  cadre: perso  # mini-analyse personnelle (Hubert, 2026-10-27)
   description: "Analyse prédictive du soutien au tramway de Québec à partir des données ouvertes de la Ville, avec forêts aléatoires."
-  statut: TROU
+  statut: archive  # peu concluant ; ne pas citer
   montrable: TROU
   facettes: [public, politique]
   poids: faible

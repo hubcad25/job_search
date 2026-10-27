@@ -15,10 +15,11 @@ Statut : décisions prises avec Hubert le 2026-10-23.
 
 | Sujet | Choix |
 |---|---|
-| Titre | « Scientifique de données » (le titre que cherchent les recruteurs), avec une accroche produit : « je conçois et livre des produits de données de bout en bout, en dirigeant des agents IA ». Le travail de PM est réel (découverte client et tests utilisateurs chez Opubliq, journal des décisions, liaison dev-chercheurs à la CLESSN), mais sans titre de PM ni équipe d'ingénieurs à diriger : on le montre dans les réalisations plutôt que dans le titre. |
+| Titre | « Scientifique de données » (le titre que cherchent les recruteurs). Accroche du CV : spécialité et produits livrés, **sans mention de l'IA** (voir ligne « Où va l'IA »). Le travail de PM est réel (découverte client et tests utilisateurs chez Opubliq, journal des décisions, liaison dev-chercheurs à la CLESSN), mais sans titre de PM ni équipe d'ingénieurs à diriger : on le montre dans les réalisations plutôt que dans le titre. |
+| Où va l'IA | **La position sur l'IA (agents, méthode, rigueur) va dans la lettre et en entrevue, jamais dans l'accroche ni les puces du CV.** Au CV, Claude Code n'apparaît que dans la ligne de compétences « Livré en production avec Claude Code ». Un LLM utilisé dans le produit (classification, RAG) reste un fait technique admis dans les puces. Décision d'Hubert, 2026-10-24. |
 | Efficience | Mettre de l'avant l'usage économe de l'IA : choisir le bon modèle pour chaque tâche, déléguer aux agents moins chers ce qui est mécanique. Preuve : le rapport vibecoding porte justement sur « mieux déléguer entre agents ». |
 | Compétences au CV | Deux niveaux explicites. « Maîtrise : R (expert), statistique, sondages. » Puis : « Livré en production avec Claude Code : Python, TypeScript, AWS, Azure. » |
-| Transparence | Dès le départ : dans la lettre, en une phrase ; en entrevue, en détail. |
+| Transparence | Dans la lettre, en une phrase, **selon l'offre** (décidé candidature par candidature, 2026-10-24) ; en entrevue, en détail. Jamais caché si la question vient. |
 | Rapport vibecoding | Ne pas le montrer d'office ; citer les résultats saillants (voir plus bas). |
 
 ## Le message en une phrase

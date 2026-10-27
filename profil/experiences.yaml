@@ -16,14 +16,18 @@
     - "Camille Tremblay-Antoine (superviseure)"
     - "Mathieu Grégoire (directeur de division)"
   realisations:
-    - "Conception et construction de la base d'un outil d'accès aux données de sondage : application Shiny qui interroge un index Azure AI Search."
-    - "Classement par LLM des questions de sondage selon les produits et services municipaux (jeu de référence annoté, lots d'annotation, dictionnaire de produits)."
-    - "Participation au développement de la gestion du panel de répondants de la Ville."
+    - "Mandat de départ peu défini : Hubert a cerné la solution (Azure AI Search) par sa propre recherche et en consultant d'autres divisions de la Ville, puis a présenté le projet aux TI, qui l'ont accepté. Preuve d'initiative et de collaboration."
+    - "Conception et construction de la base d'un outil d'accès aux données de sondage : création de l'index Azure AI Search (par Hubert), migration des données dans l'index par scripts Python, application Shiny qui l'interroge."
+    - "Classement par LLM (Azure OpenAI) des questions de sondage selon les produits et services municipaux (jeu de référence annoté, lots d'annotation, dictionnaire de produits)."
+    - "Gestion du panel de répondants, appelé à passer dans Dynamics 365 : communication du besoin aux TI, structure et schémas de données, prise en main de l'outil pour que l'équipe puisse l'utiliser elle-même."
+    - "Conception du pipeline pour que les données de l'outil (index Azure AI Search) alimentent Power BI, l'outil de tableaux de bord de la Ville ; l'index est destiné aux tableaux de bord des différentes divisions."
   resultat: "Pas encore déployé dans les divisions, faute de temps pendant le stage ; le déploiement est prévu. La superviseure poursuit le développement pour l'étendre aux autres divisions et services."
   suite: "Mathieu Grégoire m'a invité à soumissionner comme consultant pour poursuivre le projet ; ça n'a pas abouti."
   facettes: [public, sondages, techno]
-  competences: [comp-r-shiny, comp-azure, comp-llm-annotation, comp-rag-recherche-semantique]
+  competences: [comp-r-shiny, comp-azure, comp-python, comp-llm-annotation, comp-rag-recherche-semantique, comp-crm, comp-power-bi]
   projets: [proj-vdq-outil-sondages]
+  attention: "Dynamics 365 : Hubert a défini le besoin et les schémas de données avec les TI ; ne pas dire qu'il a configuré ou développé dans Dynamics 365. Power BI : sortie du pipeline prévue pour Power BI, mais Hubert n'a jamais construit de tableau de bord Power BI ; ne pas l'affirmer."
+  note_privee: "Hubert trouve que Power BI n'est pas le meilleur outil de tableaux de bord et en préfère d'autres. Ne pas l'écrire à un employeur qui utilise Power BI."
   montrable: captures
   poids: fort  # cloud (Azure) et LLM en contexte organisationnel professionnel
   validation: valide
@@ -82,6 +86,8 @@
   realisations:
     - "Mené seul : questionnaires SurveyJS, collecte postale avec code QR (push-to-web)."
     - "En assistance à Alexandre : revue méthodologique, pondération, rapport."
+    - "Présentation des résultats au client."
+    - "Liste des organismes communautaires du territoire : scraping du 211qc.ca (~2 461 organismes pour Montréal-Est, requests + BeautifulSoup) et de la carte en santé mentale, filtres géographiques, filtre de pertinence et classement par secteur par LLM, enrichissement des coordonnées (repo contrat_medaillon_ciuss/liste_organismes)."
     - "Une première version de la plateforme de sondages en libre-service a été développée dans ce mandat et sert encore chez Médaillon (voir proj-medaillon-plateforme)."
   ampleur: "Plus de 6 000 commentaires d'usagers et de la population, et plus de 1 100 commentaires d'organismes communautaires recueillis (selon l'entente de phase 2)."
   suite: "Phase 2 (entente de service de septembre 2026, client : Comité des usagers d'établissement, Santé Québec Est-de-l'Île-de-Montréal) : exploitation des commentaires de la phase 1 par groupe de services, consultation web et sur place sur la connaissance des responsabilités des usagers, infographies, et instauration d'un panel web continu d'usagers (collecte de courriels). Côté Opubliq : ajout de fonctions de panel à la plateforme. Fait en consultation sur heures perso. Entente pas encore signée (signature prévue fin oct. 2026)."
@@ -94,7 +100,7 @@
   validation: valide
 
 - id: exp-environics
-  titre: Analyste de données (contrats à temps partiel)
+  titre: Analyste de données, consultant externe (contrats à temps partiel, travailleur autonome)
   organisation: Environics Institute
   type: contrat
   periode: {debut: 2025-01, fin: null}  # en cours
@@ -142,7 +148,8 @@
     - Recommandations stratégiques.
     - Analyses en temps réel pendant la campagne.
     - "Plateforme de bout en bout : questionnaire hébergé, pipeline AWS Lambda, modèles bayésiens."
-    - "Tableau de bord Quarto mis à jour chaque matin avec les nouvelles données de terrain du client."
+    - "Tableau de bord Quarto mis à jour chaque matin avec les nouvelles données de terrain du client (pondération automatique par le pipeline, pas manuelle)."
+    - "Exercice de choix par paires (« duels ») sur 13 grands projets pour Lévis (SRB, hôpital, cité universitaire, amphithéâtre, etc.) : 4 duels par répondant tirés au hasard par une Lambda AWS (2 « emballe le plus », 2 « emballe le moins ») ; analyse en R des taux de victoire et de rejet. Hubert a conçu l'exercice et l'analyse (repo vision_opubliq_repensons_levis : functions/sondage/lambdaConjoint.ts, mini-analyses/projets_analysis/). Appelé « conjoint » dans le code, mais c'est une comparaison par paires sans attributs."
     - "Pondération d'échantillons très biaisés (pointage terrain par des bénévoles)."
   facettes: [politique, sondages, techno]
   competences: [comp-ponderation, comp-stats-bayesiennes, comp-aws, comp-quarto, comp-programmation-sondages]
@@ -218,7 +225,7 @@
   realisations:
     - "Datagotchi : dirigé la modélisation (voir proj-datagotchi)."
     - "Infrastructure logicielle sur AWS et plateforme de données pour les sciences sociales numériques : participation à l'idée, à la conception, à la réflexion et au développement (pas seul concepteur)."
-    - "Pipelines ETL : plus de 30 sondages, articles médiatiques et débats parlementaires."
+    - "Pipelines ETL (plus de 30 sondages, articles médiatiques, débats parlementaires) : conceptualisés par Hubert avec un développeur, qui les a développés ; Hubert les utilisait pour ses analyses et formait les étudiants à s'en servir. Ne pas dire qu'il les a construits seul."
     - "Surtout : formation de plus de 10 étudiants non techniques à l'ETL ; lien entre l'équipe de dev et les étudiants en science politique."
     - "Polimètre : création d'un outil, encore utilisé aujourd'hui, qui aide l'opérateur (celui qui dirige les auxiliaires) à annoter les promesses et à transformer le fichier commun de l'équipe en fichier exportable vers le backend du site."
     - "Participation au développement de la gestion du panel de répondants de la CLESSN."
@@ -226,6 +233,8 @@
     - "Packages R internes, dont sondr (analyse de sondages), utilisés par l'équipe et dans mon mémoire."
     - "Co-rédaction de publications, demandes de subvention et d'approbation éthique, collaboration avec des partenaires externes."
     - "Mentorat d'étudiants novices."
+    - "Suivi des fournisseurs de collecte pour 5 sondages de la chaire : Léger, parfois par l'intermédiaire de Synopsis."
+    - "Présentation de données à la Direction de la philanthropie et des relations avec les diplômées et diplômés (DPRD) de l'Université Laval."
   projets_participes:
     - Datagotchi
     - Boussole électorale
@@ -261,6 +270,7 @@
     - "Identification de personas dans les données, puis croisement avec l'appréciation des services, des expositions, etc."
     - Deux rapports stratégiques d'orientation marketing.
     - Collaboration avec l'équipe marketing.
+    - "Présentation des résultats à des gestionnaires au-dessus du département marketing (instance exacte non retenue)."
   facettes: [sondages, public]
   competences: [comp-segmentation]
   montrable: public  # rapports montrables

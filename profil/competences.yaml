@@ -35,8 +35,8 @@
   categorie: langage
   niveau_sans_ia: intermediaire
   niveau_avec_ia: avance
-  preuves: [proj-geo-marketing-api, proj-silicon-sampling, proj-pool-tracker-espn, proj-mega-agregateur-qc2026]
-  notes: "Outils : uv, pytest, ruff, Polars, GeoPandas."
+  preuves: [exp-vdq-stage, proj-datagotchi, proj-geo-marketing-api, proj-silicon-sampling, proj-pool-tracker-espn, proj-mega-agregateur-qc2026]
+  notes: "Outils : uv, pytest, ruff, Pandas, NumPy, Polars, GeoPandas. Pandas et NumPy confirmés par Hubert (2026-10-24)."
   validation: valide
 
 - id: comp-sql
@@ -129,7 +129,7 @@
   categorie: methode
   niveau_sans_ia: intermediaire
   niveau_avec_ia: intermediaire
-  preuves: [exp-clessn]
+  preuves: [exp-clessn, exp-repensons-levis-2025]  # CLESSN : conjointe Qualtrics ; Lévis : choix par paires (proche, pas une conjointe à attributs)
   validation: valide
 
 - id: comp-analyse-factorielle
@@ -161,7 +161,7 @@
   categorie: methode
   niveau_sans_ia: expert
   niveau_avec_ia: expert
-  preuves: [exp-environics, pub-substack-resilience, exp-ta-icpsr, proj-nhl-matchups]
+  preuves: [exp-environics, pub-substack-resilience, exp-ta-icpsr, proj-nhl-matchups, proj-repensons-levis-plateforme]
   validation: valide
 
 - id: comp-programmation-sondages
@@ -291,11 +291,11 @@
   validation: valide
 
 - id: comp-scraping
-  nom: Scraping (Playwright)
+  nom: Scraping (Playwright, BeautifulSoup)
   categorie: donnees
   niveau_sans_ia: intermediaire
   niveau_avec_ia: avance
-  preuves: [proj-veille-gouv]
+  preuves: [proj-veille-gouv, exp-medaillon-ciusss, exp-clessn]  # CIUSSS : 211qc.ca (BeautifulSoup) ; CLESSN : articles médiatiques et débats (dit par Hubert le 2026-10-27)
   validation: valide
 
 - id: comp-loi25
@@ -354,4 +354,38 @@
   niveau_sans_ia: avance
   niveau_avec_ia: avance
   preuves: []  # environnement de travail quotidien ; aucune preuve externe
+  validation: valide
+
+# --- Outils de BI et CRM (déclarés le 2026-10-24, niveau notions) ---
+
+- id: comp-power-bi
+  nom: Power BI
+  categorie: outil
+  niveau_sans_ia: notions
+  niveau_avec_ia: notions
+  preuves: [exp-vdq-stage]  # sortie du pipeline vers Power BI prévue dans l'architecture ; aucun tableau de bord Power BI construit
+  validation: valide
+
+- id: comp-excel
+  nom: Excel
+  categorie: outil
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: intermediaire
+  preuves: []  # usage : classeur pour consulter et échanger des données ; les analyses se font en R ou Python
+  validation: valide
+
+- id: comp-crm
+  nom: CRM (dont Dynamics 365)
+  categorie: outil
+  niveau_sans_ia: notions
+  niveau_avec_ia: notions
+  preuves: [exp-vdq-stage]  # besoin et schémas de données définis avec les TI ; pas de configuration dans l'outil
+  validation: valide
+
+- id: comp-google-analytics
+  nom: Google Analytics
+  categorie: outil
+  niveau_sans_ia: notions
+  niveau_avec_ia: notions
+  preuves: []  # déclaré par Hubert ; aucun projet livré
   validation: valide
