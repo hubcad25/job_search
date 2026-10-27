@@ -3,3 +3,5 @@ __pycache__/
 data/raw/req/
 data/raw/seao/
 data/raw/lobby_fed/
+spec.html
+spec_files/
