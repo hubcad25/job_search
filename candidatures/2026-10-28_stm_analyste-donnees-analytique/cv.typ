@@ -5,7 +5,7 @@
 // exp-environics : titre réel « analyste de données »
 #show: cv.with(
   nom: "Hubert Cadieux",
-  titre: "Analyste, données et analytique",
+  titre: "Analyste de données",
   coordonnees: ("Montréal", "(438) 825-3958", "hubertcadieux@gmail.com"),
   liens: ("linkedin.com/in/hubert-cadieux-7172571a0",),
 )
