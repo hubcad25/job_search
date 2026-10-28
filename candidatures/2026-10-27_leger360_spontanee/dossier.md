@@ -35,7 +35,7 @@ Dates de publication tirées de l'API du site (https://leger360.com/wp-json/wp/v
 - Poste visé : analyste en statistique ou en analytique (équipe de Kyle McGee), ou analyste de recherche en affaires publiques (équipe Est du Canada). Aucun de ces titres n'est affiché en ce moment à Montréal (voir plus bas) ; « Statistical Analyst » et « Research Manager » existent chez Léger d'après les témoignages de la page carrières (https://leger360.com/careers/).
 - Accroche : Datagotchi 2024 avec Léger (`proj-datagotchi`), formulé exactement comme dans `attention`. En second : répondants synthétiques par LLM (`proj-silicon-sampling`), qui touche directement Smart Persona et l'article sur les données synthétiques.
 - Risque : **concurrent direct d'Opubliq.** La formulation pour les firmes de sondage est encore « à décider » dans `positionnement/opubliq.md`. En attendant, s'appuyer sur les décisions déjà prises : Opubliq est en veille et passe au second plan ; Hubert déclare toute consultation, et s'engage à n'en faire aucune pendant l'emploi si Léger le préfère. Trancher la formulation avec Hubert avant l'envoi.
-- Risque : usage de l'IA. Depuis le 2026-10-22, Léger interdit d'exagérer son expérience avec l'IA et de l'utiliser en entrevue ou en test sans autorisation (https://leger360.com/recruitment-ai-guideline/). Respecter strictement la distinction niveau sans IA / avec IA de `profil/README.md`.
+- Risque : usage de l'IA. Depuis le 2026-10-22, Léger interdit d'utiliser l'IA pour exagérer son expérience ou ses compétences, pour générer des réponses en entrevue ou pour faire un test sans autorisation ; l'IA reste permise pour rédiger et améliorer le CV et la lettre (https://leger360.com/recruitment-ai-guideline/). Respecter strictement la distinction niveau sans IA / avec IA de `profil/README.md`.
 - Risque : `exp-qff-2025` repose sur un sondage Léger, mais l'entrée a un poids faible et n'est pas montrable. Ne pas la citer.
 - Risque : anglais exigé pour plusieurs postes (offres de Built In ci-dessous) ; Hubert est « presque bilingue » (`identite.yaml`, `comp-bilinguisme`).
 
@@ -63,6 +63,7 @@ Dates de publication tirées de l'API du site (https://leger360.com/wp-json/wp/v
 - Candidature spontanée : Léger affichait une offre « Candidature spontanée » à Montréal, retirée le 2025-11-21 (https://builtinmontreal.com/job/candidature-spontan-e/7109268). La page carrières invite toujours à postuler (« we'd love to hear from you »).
 
 ## Sources
+- Passe de vérification du 2026-10-28 : toutes les pages leger360.com citées répondent ; titres des 4 contacts, dates des 11 actualités (API WordPress) et politique de recrutement IA confirmés sur la page ; les 4 offres Built In Montréal sont en ligne (publiées il y a 1 jour à 1 mois). Non vérifiables depuis la session : SmartRecruiters, builtin.com, careerbeacon.com, cfib-fcei.ca, LinkedIn.
 - `data/organisations.csv`, `data/organisations_web.csv`, `data/candidatures.csv` (2026-10-26)
 - https://leger360.com/about-us/ ; https://leger360.com/our-team/ ; https://leger360.com/careers/ ; https://leger360.com/recruitment-ai-guideline/
 - https://leger360.com/public-affairs/ ; https://leger360.com/analytics-lea/ ; https://leger360.com/leger-opinion-academic-services/ ; https://leger360.com/academic-committee/
