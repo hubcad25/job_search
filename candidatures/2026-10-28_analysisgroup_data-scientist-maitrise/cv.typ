@@ -10,8 +10,8 @@
 )
 
 // guides/redaction.md : accroche sans position sur l'IA ; un LLM dans le produit reste un fait technique.
-// exp-clessn (2021-01) : plus de 5 ans ; comp-r-shiny, comp-python, comp-modelisation-predictive, comp-rag-recherche-semantique, comp-agents-llm ; exp-environics (recherche), exp-medaillon-ciusss (santé), exp-vdq-stage (municipal)
-#accroche[Plus de 5~ans en science des données (R, Python). Modèles statistiques, outils qui utilisent des LLM (RAG, agents, extraction) et portails analytiques en R~Shiny pour des clients en recherche, en santé communautaire et au municipal.]
+// exp-clessn (2021-01) : plus de 5 ans ; comp-r-shiny, comp-python, comp-modelisation-predictive, comp-rag-recherche-semantique, comp-agents-llm ; exp-environics (recherche), exp-medaillon-ciusss (santé), exp-vdq-stage (municipal) ; portails : proj-vdq-outil-sondages (Shiny), exp-repensons-levis-2025 (Quarto), comp-typescript-web (React)
+#accroche[Plus de 5~ans en science des données (R, Python). Modèles statistiques, outils qui utilisent des LLM (RAG, agents, extraction) et portails analytiques (R~Shiny, Quarto, React) pour des clients en recherche, en santé communautaire et au municipal.]
 
 #section[Expérience]
 
