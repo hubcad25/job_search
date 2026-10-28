@@ -38,6 +38,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `exp-capp-polimetre` | Recherchiste pour le Polimètre — CAPP, Université Laval | 2021–2021 | politique, recherche | faible | valide_lot |
 | `exp-rangers-recruteur` | Recruteur amateur — Rangers de Montréal-Est | 2019–2021 | sport | faible | valide_lot |
 | `exp-affiliations` | Membre étudiant du CAPP, du GRCP et du CECD |  | recherche, politique | faible | valide_lot |
+| `exp-metro-commis` | Commis d'épicerie — Metro Mont-Saint-Hilaire | 2016–2018 | public | faible | valide |
 
 ## projets.yaml
 

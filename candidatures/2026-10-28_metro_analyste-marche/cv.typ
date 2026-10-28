@@ -48,6 +48,9 @@
   - Bâtir le modèle prédictif de l’application Datagotchi pour l’élection américaine de 2024 (plus de 10~000 utilisateurs, R et Python).
 ])
 
+// exp-metro-commis (temps partiel, secondaire et cégep ; utile pour le commerce alimentaire)
+#entree(titre: "Commis d’épicerie (temps partiel)", org: "Metro Mont-Saint-Hilaire", dates: "2016 – 2018")
+
 #pagebreak(weak: true)
 #section[Formation]
 
