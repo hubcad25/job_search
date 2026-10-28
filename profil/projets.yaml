@@ -45,7 +45,7 @@
   objectif: "Usage interne pour commencer : accéder facilement aux données sociodémographiques par localisation précise, agréger de petites formes géographiques en plus grandes, et devenir une vraie source de vérité des données sociodémographiques au Canada."
   description: "API interne de profils sociodémographiques pour ~57 000 aires de diffusion au Canada (recensement 2021) et indice de dons."
   techno: ["FastAPI", "DuckDB (requêtes spatiales)", "GeoParquet dans Azure Blob (Canada Est)", "Azure Container Apps (mise à l'échelle à zéro)", "Entra ID", "ETL GeoPandas", "Docker"]
-  pratiques: [conformité Loi 25 documentée]
+  pratiques: [conformité Loi 25 documentée, "modélisation de données : schéma de la base conçu par Hubert (dit le 2026-10-28)"]
   role: responsable
   statut: hors_ligne  # coût d'hébergement
   montrable: non

@@ -299,6 +299,14 @@
   preuves: [exp-clessn, proj-medaillon-plateforme, proj-geo-marketing-api, proj-mega-agregateur-qc2026]
   validation: valide
 
+- id: comp-modelisation-donnees
+  nom: Modélisation de données (tables, clés, relations)
+  categorie: donnees
+  niveau_sans_ia: intermediaire  # niveau à confirmer avec Hubert
+  niveau_avec_ia: avance  # niveau à confirmer avec Hubert
+  preuves: [exp-clessn, exp-vdq-stage, proj-geo-marketing-api]  # dit par Hubert le 2026-10-28
+  validation: valide
+
 - id: comp-scraping
   nom: Scraping (Playwright, BeautifulSoup)
   categorie: donnees

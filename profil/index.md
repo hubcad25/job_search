@@ -172,6 +172,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-api-backend` | API et backend (FastAPI, DuckDB, Docker) |  | web | notions / avance | valide |
 | `comp-ci` | CI et pipelines planifiés (GitHub Actions) |  | outil | intermediaire / avance | valide |
 | `comp-etl-pipelines` | Pipelines de données (ETL) |  | donnees | avance / expert | valide |
+| `comp-modelisation-donnees` | Modélisation de données (tables, clés, relations) |  | donnees | intermediaire / avance | valide |
 | `comp-scraping` | Scraping (Playwright, BeautifulSoup) |  | donnees | intermediaire / avance | valide |
 | `comp-loi25` | Conformité Loi 25 (EFVP, hébergement au Québec) |  | donnees | intermediaire / intermediaire | valide |
 | `comp-gestion-projet` | Gestion de projet |  | transversal | avance / sans_objet | valide |
