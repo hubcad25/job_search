@@ -11,7 +11,7 @@
 
 // guides/redaction.md : accroche sans IA
 // exp-clessn (2021-01) : plus de 5 ans ; comp-programmation-sondages, comp-geospatial (proj-geo-marketing-api), comp-inference-causale (proj-enap-lois-localisation), exp-mitacs-musee (rapports aux gestionnaires)
-#accroche[Analyste de données depuis plus de 5~ans, surtout en enquêtes et en données du recensement par territoire. Je mesure aussi l’effet d’un changement dans le temps et je présente les résultats aux gestionnaires.]
+#accroche[Analyste de données depuis plus de 5~ans, surtout en enquêtes et en données du recensement par territoire. J’en tire des rapports pour les gestionnaires.]
 
 #section[Expérience]
 
