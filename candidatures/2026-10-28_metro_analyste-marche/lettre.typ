@@ -23,7 +23,7 @@ Pour le Comité des usagers du CIUSSS de l'Est-de-l'Île-de-Montréal, j'ai con�
 Chez Opubliq, l'entreprise que j'ai cofondée, j'ai bâti une base qui donne le profil sociodémographique du recensement pour les 57~000 aires de diffusion du Canada. En regroupant ces petites zones, on obtient le portrait sociodémographique de la zone de chalandise d'un magasin. Pour l'ENAP, j'ai mesuré par double différence l'effet de l'adoption de lois sur la localisation des données. La même méthode permet de mesurer l'effet de l'ouverture d'un concurrent sur les ventes d'un magasin, en comparant avec des magasins qui n'y sont pas exposés.
 
 // 4. Pourquoi ce poste : offre.md (études pour les projets d'expansion) ; écarts : MapInfo (absent du profil), comp-power-bi (notions), exp-metro-commis (commis d'épicerie, 2016-2018, temps partiel) ; compensation : comp-geospatial (Python et R, dit par Hubert le 2026-10-28)
-Au secondaire et au cégep, j'ai travaillé trois ans comme commis d'épicerie au Metro de Mont-Saint-Hilaire. J'aimerais revenir chez Metro comme analyste, pour aider à décider où ouvrir ou agrandir un magasin. Je n'ai pas encore utilisé MapInfo et je n'ai que des notions de Power BI, mais je fais déjà ce genre d'analyses géographiques en Python et en R.
+Au secondaire et au cégep, j'ai travaillé trois ans comme commis d'épicerie au Metro de Mont-Saint-Hilaire. J'aimerais revenir chez Metro comme analyste et faire les études de marché qui servent à agrandir ou à ouvrir des magasins. Je n'ai pas encore utilisé MapInfo et je n'ai que des notions de Power BI, mais je fais déjà ce genre d'analyses géographiques en Python et en R.
 
 Je serais heureux d'en discuter avec vous en entrevue.
 
