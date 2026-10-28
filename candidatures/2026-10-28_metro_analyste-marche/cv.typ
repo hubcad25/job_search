@@ -59,10 +59,10 @@
 #section[Compétences]
 
 // comp-r-shiny, comp-programmation-sondages, comp-ponderation, comp-segmentation, comp-inference-causale (avancé), comp-redaction (avancé), comp-visualisation, comp-quarto
-// comp-excel, comp-word, comp-sql, comp-python, comp-geospatial (intermédiaire sans IA) ; deux niveaux : positionnement/ia.md
+// comp-excel, comp-word, comp-powerpoint (dit par Hubert le 2026-10-28), comp-sql, comp-python, comp-geospatial (intermédiaire sans IA) ; deux niveaux : positionnement/ia.md
 #competences(
   ("Maîtrise", ("R", "conception de questionnaires", "pondération de sondages", "segmentation", "mesure d’effet (double différence)", "rédaction de rapports", "visualisation", "Quarto")),
-  ("Intermédiaire", ("Excel", "Word", "SQL", "Python", "analyses géographiques (GeoPandas, recensement de Statistique Canada)")),
+  ("Intermédiaire", ("Excel", "Word", "PowerPoint", "SQL", "Python", "analyses géographiques en R et en Python (recensement de Statistique Canada)")),
   ("Livré en production avec Claude Code", ("applications Python, AWS et Azure", "applications web (TypeScript)")),
   // comp-power-bi : notions, en dernier, sans qualificatif
   ("Notions", ("Power BI",)),

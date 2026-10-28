@@ -184,5 +184,6 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-power-bi` | Power BI |  | outil | notions / notions | valide |
 | `comp-excel` | Excel |  | outil | intermediaire / intermediaire | valide |
 | `comp-word` | Word |  | outil | intermediaire / intermediaire | valide |
+| `comp-powerpoint` | PowerPoint |  | outil | intermediaire / intermediaire | valide |
 | `comp-crm` | CRM (dont Dynamics 365) |  | outil | notions / notions | valide |
 | `comp-google-analytics` | Google Analytics |  | outil | notions / notions | valide |

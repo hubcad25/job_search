@@ -22,8 +22,8 @@ Pour le Comité des usagers du CIUSSS de l'Est-de-l'Île-de-Montréal, j'ai con�
 // 3. proj-geo-marketing-api (~57 000 aires de diffusion, recensement 2021, regrouper de petites zones en plus grandes) ; exp-enap, proj-enap-lois-localisation, comp-inference-causale (double différence), form-eiom
 Chez Opubliq, l'entreprise que j'ai cofondée, j'ai bâti une base qui donne le profil sociodémographique du recensement pour les 57~000 aires de diffusion du Canada. En regroupant ces petites zones, on obtient le portrait sociodémographique de la zone de chalandise d'un magasin. Pour l'ENAP, j'ai mesuré par double différence l'effet de l'adoption de lois sur la localisation des données. La même méthode permet de mesurer l'effet de l'ouverture d'un concurrent sur les ventes d'un magasin, en comparant avec des magasins qui n'y sont pas exposés.
 
-// 4. Pourquoi ce poste : offre.md (études pour les projets d'expansion) ; écarts : MapInfo (absent du profil), comp-power-bi (notions), commerce alimentaire (aucune entrée) ; compensation : comp-geospatial (outils Python)
-Ce poste m'attire parce que vos études servent à décider s'il faut agrandir, déplacer ou ouvrir un magasin. Je n'ai pas utilisé MapInfo et je n'ai que des notions de Power BI, mais je fais déjà mes analyses géographiques en Python. Je n'ai pas non plus travaillé dans le commerce alimentaire.
+// 4. Pourquoi ce poste : offre.md (études pour les projets d'expansion) ; écarts : MapInfo (absent du profil), comp-power-bi (notions), commerce alimentaire (aucune entrée) ; compensation : comp-geospatial (Python et R, dit par Hubert le 2026-10-28)
+Ce poste m'attire parce que vos études servent à décider s'il faut agrandir, déplacer ou ouvrir un magasin. Je n'ai pas utilisé MapInfo et je n'ai que des notions de Power BI, mais je fais déjà mes analyses géographiques en Python et en R. Je n'ai pas non plus travaillé dans le commerce alimentaire.
 
 Je serais heureux d'en discuter avec vous en entrevue.
 
