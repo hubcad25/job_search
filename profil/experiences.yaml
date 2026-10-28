@@ -391,3 +391,17 @@
   facettes: [recherche, politique]
   poids: faible
   validation: valide_lot
+
+- id: exp-metro-commis
+  titre: Commis d'épicerie
+  organisation: Metro Mont-Saint-Hilaire
+  type: emploi
+  periode: {debut: 2016, fin: 2018}  # environ (dit par Hubert le 2026-10-28)
+  regime: temps_partiel  # pendant le secondaire et le cégep
+  remunere: oui
+  au_nom: employeur
+  role: contributeur
+  facettes: [public]
+  notes: "Utile seulement pour une offre du commerce alimentaire (connaissance du marché alimentaire), ex. : Metro, analyste de marché."
+  poids: faible
+  validation: valide

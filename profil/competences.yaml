@@ -187,6 +187,7 @@
   niveau_sans_ia: intermediaire
   niveau_avec_ia: avance
   preuves: [proj-geo-marketing-api]
+  notes: "Analyses géographiques aussi en R (dit par Hubert le 2026-10-28)."
   validation: valide
 
 - id: comp-vision-ordinateur
@@ -395,6 +396,14 @@
   nom: Word
   categorie: outil
   niveau_sans_ia: intermediaire  # confirmé par Hubert le 2026-10-28 (ajout au CV CSSMB) ; niveau non précisé
+  niveau_avec_ia: intermediaire
+  preuves: []
+  validation: valide
+
+- id: comp-powerpoint
+  nom: PowerPoint
+  categorie: outil
+  niveau_sans_ia: intermediaire  # confirmé par Hubert le 2026-10-28 (CV Metro) ; il préfère d'autres outils de présentation
   niveau_avec_ia: intermediaire
   preuves: []
   validation: valide
