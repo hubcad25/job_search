@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Compile le CV et la lettre d'une candidature en PDF nommés Hubert_Cadieux_<CV|Lettre>_<SIGLE>.pdf.
-# Usage : render <dossier ou bout de nom> [sigle]
-#   render stm                  → candidatures/2026-10-28_stm_.../Hubert_Cadieux_CV_STM.pdf
-#   render alto Alto            → sigle imposé (sinon : org du nom de dossier, en majuscules)
+# Usage : make render <dossier ou bout de nom> [sigle]   (depuis la racine du dépôt)
+#   make render stm                  → candidatures/2026-10-28_stm_.../Hubert_Cadieux_CV_STM.pdf
+#   make render alto Alto            → sigle imposé (sinon : org du nom de dossier, en majuscules)
 set -euo pipefail
 
 racine="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-[[ $# -ge 1 ]] || { echo "Usage : render <dossier> [sigle]" >&2; exit 1; }
+[[ $# -ge 1 ]] || { echo "Usage : make render <dossier> [sigle]" >&2; exit 1; }
 
 # Dossier : chemin existant, sinon recherche dans candidatures/
 if [[ -d "$1" ]]; then
