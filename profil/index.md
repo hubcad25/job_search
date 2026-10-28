@@ -147,6 +147,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-html-js` | HTML / JavaScript |  | langage | debutant / intermediaire | valide |
 | `comp-git` | Git et GitHub |  | outil | avance / avance | valide |
 | `comp-stats-bayesiennes` | Statistique bayésienne |  | methode | intermediaire / avance | valide |
+| `comp-series-temporelles` | Séries temporelles |  | methode | intermediaire / avance | a_confirmer |
 | `comp-modelisation-predictive` | Modélisation prédictive |  | methode | avance / avance | valide |
 | `comp-inference-causale` | Inférence causale |  | methode | avance / avance | valide |
 | `comp-ponderation` | Pondération de sondages |  | methode | avance / avance | valide |
@@ -181,5 +182,6 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-environnement-linux` | Environnement Debian, Neovim |  | outil | avance / avance | valide |
 | `comp-power-bi` | Power BI |  | outil | notions / notions | valide |
 | `comp-excel` | Excel |  | outil | intermediaire / intermediaire | valide |
+| `comp-word` | Word |  | outil | intermediaire / intermediaire | valide |
 | `comp-crm` | CRM (dont Dynamics 365) |  | outil | notions / notions | valide |
 | `comp-google-analytics` | Google Analytics |  | outil | notions / notions | valide |

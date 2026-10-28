@@ -229,6 +229,7 @@
   realisations:
     - "USA 2024 : responsable du modèle. Conception du sondage pilote, modèle de régression ordinale, mises à jour pendant la campagne, outil Shiny interne pour tester le modèle en équipe."
     - "Élections précédentes (fédérale 2021, Québec) : impliqué, mais pas responsable du modèle."
+    - "USA 2024 : séries temporelles pour bâtir des priors de vote par code postal, intégrés au modèle ; ARIMA selon le souvenir d'Hubert (dit le 2026-10-28)."
   techno: ["R", "Shiny", "Python"]  # Python : intégration du modèle prédictif dans l'app (dit par Hubert le 2026-10-27)
   role: responsable  # du modèle pour USA 2024 seulement
   attention: "Ne pas présenter Hubert comme créateur de Datagotchi. Formulation juste : responsable du modèle pour l'élection américaine de 2024, en partenariat avec Léger."

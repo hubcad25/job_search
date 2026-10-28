@@ -226,6 +226,7 @@
     - "Datagotchi : dirigé la modélisation (voir proj-datagotchi)."
     - "Infrastructure logicielle sur AWS et plateforme de données pour les sciences sociales numériques : participation à l'idée, à la conception, à la réflexion et au développement (pas seul concepteur)."
     - "Pipelines ETL (plus de 30 sondages, articles médiatiques, débats parlementaires) : conceptualisés par Hubert avec un développeur, qui les a développés ; Hubert les utilisait pour ses analyses et formait les étudiants à s'en servir. Ne pas dire qu'il les a construits seul."
+    - "Les pipelines ETL comprenaient des contrôles de qualité des données (confirmé par Hubert le 2026-10-28)."
     - "Surtout : formation de plus de 10 étudiants non techniques à l'ETL ; lien entre l'équipe de dev et les étudiants en science politique."
     - "Polimètre : création d'un outil, encore utilisé aujourd'hui, qui aide l'opérateur (celui qui dirige les auxiliaires) à annoter les promesses et à transformer le fichier commun de l'équipe en fichier exportable vers le backend du site."
     - "Participation au développement de la gestion du panel de répondants de la CLESSN."
@@ -266,7 +267,7 @@
   equipe:
     - "Adrien Cloutier (alors doctorant, à confirmer) : partenaire du stage Mitacs."
   realisations:
-    - Valorisation des enquêtes par sondage du Musée.
+    - Valorisation des enquêtes par sondage du Musée, qui mesuraient la satisfaction des visiteurs (confirmé par Hubert, 2026-10-28).
     - "Identification de personas dans les données, puis croisement avec l'appréciation des services, des expositions, etc."
     - Deux rapports stratégiques d'orientation marketing.
     - Collaboration avec l'équipe marketing.

@@ -90,6 +90,15 @@
   preuves: [proj-repensons-levis-plateforme, form-maitrise-ulaval, proj-nhl-matchups]
   validation: valide
 
+- id: comp-series-temporelles
+  nom: Séries temporelles
+  categorie: methode
+  niveau_sans_ia: intermediaire  # à confirmer
+  niveau_avec_ia: avance  # à confirmer
+  preuves: [proj-datagotchi]
+  notes: "Priors de vote par code postal dans le modèle Datagotchi, élection américaine de 2024, probablement ARIMA (dit par Hubert le 2026-10-28). Au CV : « séries temporelles », sans affirmer ARIMA tant que le code n'est pas vérifié."
+  validation: a_confirmer
+
 - id: comp-modelisation-predictive
   nom: Modélisation prédictive
   categorie: methode
@@ -372,6 +381,14 @@
   niveau_sans_ia: intermediaire
   niveau_avec_ia: intermediaire
   preuves: []  # usage : classeur pour consulter et échanger des données ; les analyses se font en R ou Python
+  validation: valide
+
+- id: comp-word
+  nom: Word
+  categorie: outil
+  niveau_sans_ia: intermediaire  # confirmé par Hubert le 2026-10-28 (ajout au CV CSSMB) ; niveau non précisé
+  niveau_avec_ia: intermediaire
+  preuves: []
   validation: valide
 
 - id: comp-crm
