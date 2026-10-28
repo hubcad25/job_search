@@ -21,7 +21,7 @@
   - Bâtir une base unique des sondages de la Ville et l’outil qui permet d’y chercher les questions et d’en visualiser les résultats (Azure AI Search, Python, R~Shiny).
   - Proposer aux TI la solution technique après avoir consulté d’autres divisions, puis la faire accepter.
   - Concevoir le pipeline qui reliera cette base aux tableaux de bord Power BI des divisions.
-  - Définir avec les TI la structure des données du panel de répondants avant son passage au CRM Dynamics~365.
+  - Définir avec les TI le modèle de données du panel de répondants avant son passage au CRM Dynamics~365.
 ])
 
 // exp-repensons-levis-2025 (au_nom: perso), exp-environics ; regroupés (guides/redaction.md)
@@ -33,7 +33,7 @@
 // exp-opubliq, proj-medaillon-plateforme (environnements dev et prod, journal des décisions), proj-geo-marketing-api (DuckDB, ~57 000 aires, comp-loi25), exp-medaillon-ciusss (ampleur 6 000 + 1 100) ; positionnement/opubliq.md
 #entree(titre: "Cofondateur et PDG", org: "Opubliq inc.", lieu: "Recherche sur l’opinion publique et produits de données", dates: "2024 – auj. (en veille)", puces: [
   - Livrer à Médaillon Groupe Conseils la plateforme de sondages en libre-service qu’elle utilise encore, avec des environnements de développement et de production séparés (TypeScript, AWS).
-  - Bâtir une base de profils sociodémographiques de 57~000 aires de diffusion du Canada, interrogée en SQL, et en documenter la conformité à la Loi~25 (DuckDB, Azure).
+  - Concevoir le modèle de données d’une base de profils sociodémographiques de 57~000 aires de diffusion du Canada, interrogée en SQL, et en documenter la conformité à la Loi~25 (DuckDB, Azure).
   - Mener la collecte d’une consultation du Comité des usagers du CIUSSS de l’Est-de-l’Île-de-Montréal (plus de 7~000 commentaires) et en présenter les résultats au client.
 ])
 
@@ -44,7 +44,7 @@
 
 // exp-clessn (pipelines conçus avec un développeur ; contrôles de qualité confirmés 2026-10-28 ; formation de plus de 10 étudiants), proj-polimetre-outil (fichiers Excel → import au site, encore utilisé), proj-datagotchi (attention : pas « créateur »)
 #entree(titre: "Auxiliaire de recherche, puis scientifique de données", org: "CLESSN, Université Laval", dates: "2021 – 2024", puces: [
-  - Concevoir avec un développeur les pipelines ETL et les contrôles de qualité des données de plus de 30 sondages et former plus de 10 étudiants non techniques à s’en servir.
+  - Concevoir avec un développeur le modèle de données, les pipelines ETL et les contrôles de qualité de plus de 30 sondages et former plus de 10 étudiants non techniques à s’en servir.
   - Créer l’outil que l’équipe du Polimètre utilise encore pour transformer ses fichiers Excel en données prêtes à importer dans le site (R~Shiny).
   - Bâtir le modèle prédictif de l’application Datagotchi pour l’élection américaine de 2024 (plus de 10~000 utilisateurs, R et Python).
 ])
@@ -65,10 +65,10 @@
 #section[Compétences]
 
 // comp-r-shiny, comp-etl-pipelines (avancé), comp-visualisation, comp-quarto, comp-gestion-projet (avancé)
-// comp-sql (intermédiaire sans IA, avancé avec), comp-python, comp-excel, comp-word, comp-loi25 ; deux niveaux : positionnement/ia.md
+// comp-modelisation-donnees (intermédiaire, dit par Hubert le 2026-10-28) ; comp-sql (intermédiaire sans IA, avancé avec), comp-python, comp-excel, comp-word, comp-loi25 ; deux niveaux : positionnement/ia.md
 #competences(
   ("Maîtrise", ("R et Shiny", "pipelines de données (ETL)", "contrôle de la qualité des données", "tableaux de bord", "visualisation", "Quarto", "gestion de projet")),
-  ("Intermédiaire", ("SQL", "Python (Pandas, NumPy)", "Excel", "Word", "conformité à la Loi 25")),
+  ("Intermédiaire", ("SQL", "modélisation de données", "Python (Pandas, NumPy)", "Excel", "Word", "conformité à la Loi 25")),
   ("Livré en production avec Claude Code", ("requêtes SQL avancées (DuckDB)", "applications Python, AWS et Azure", "applications web (TypeScript)")),
   // comp-power-bi : notions, en dernier, sans qualificatif
   ("Notions", ("Power BI",)),
