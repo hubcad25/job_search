@@ -25,9 +25,10 @@ Le codage et les statuts sont un jugement de Claude à partir de `offre.md` et d
 |---|---|---|---|
 | 1 | Construire un tableau de bord Power BI publié (données de sondage déjà en main), l'ajouter au profil | 7 | 2 à 3 jours |
 | 2 | Excel avancé : Power Query et tableau croisé sur le même jeu de données | 6 | 1 jour |
-| 3 | Mettre en avant une preuve d'anglais (Environics, ICPSR) et un projet Python/SQL public | 7 | 2 heures (CV) |
+| 3 | Projet Python/SQL public, défendable sans IA | 7 | 2 jours |
 | 4 | Recherche qualitative : observer ou co-animer un groupe de discussion (mandat Opubliq, contact CROP ou Léger) ; moins urgent depuis la validation | 5 | à planifier |
-| 5 | SPSS : ne pas l'apprendre ; une phrase dans la lettre (« analyses en R et Python, au-delà de SPSS ») | 2 | 10 minutes |
+
+Au moment d'appliquer (pas des améliorations du profil) : montrer l'anglais (Environics, ICPSR) quand l'offre l'exige ; une phrase « mêmes analyses en R et Python » quand l'offre nomme SPSS, Display R ou MapInfo.
 
 Option : la certification PL-300 (Power BI Data Analyst) transforme l'action 1 en preuve reconnue par les RH du public (environ 2 semaines).
 

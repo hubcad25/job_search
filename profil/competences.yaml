@@ -165,7 +165,7 @@
   niveau_sans_ia: debutant
   niveau_avec_ia: debutant
   preuves: [exp-opubliq, form-bac-eco-pol-ulaval]  # Opubliq : entretiens de l'étude de marché ; bac : cours de méthodologie qualitative (devis de recherche)
-  notes: "Bases acquises ; n'a jamais animé de groupe de discussion (confirmé par Hubert le 2026-11-02). Cours exact à confirmer."
+  notes: "Une quinzaine d'entretiens de validation de marché pour Opubliq, avec guide d'entretien ; résultats utilisés pour les décisions d'affaires. N'a jamais animé de groupe de discussion (confirmé par Hubert le 2026-11-02). Cours exact à confirmer."
   validation: valide
 
 - id: comp-analyse-factorielle
