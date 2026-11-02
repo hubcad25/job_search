@@ -38,6 +38,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `exp-capp-polimetre` | Recherchiste pour le Polimètre — CAPP, Université Laval | 2021–2021 | politique, recherche | faible | valide_lot |
 | `exp-rangers-recruteur` | Recruteur amateur — Rangers de Montréal-Est | 2019–2021 | sport | faible | valide_lot |
 | `exp-affiliations` | Membre étudiant du CAPP, du GRCP et du CECD |  | recherche, politique | faible | valide_lot |
+| `exp-drainvac-marketing` | Stagiaire en marketing — Drainvac International | 2018-11–2020-03 | techno | faible | valide |
 | `exp-metro-commis` | Commis d'épicerie — Metro Mont-Saint-Hilaire | 2016–2018 | public | faible | valide |
 
 ## projets.yaml
@@ -48,6 +49,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `proj-atlas-opubliq` | L'Atlas Opubliq (plateforme d'exploration et d'analyse de sondages) |  | techno, sondages | moyen | valide |
 | `proj-geo-marketing-api` | geo-marketing-api |  | techno | moyen | valide |
 | `proj-silicon-sampling` | Répondants synthétiques par LLM (silicon sampling) |  | techno, sondages, recherche | moyen | valide |
+| `proj-panel-bodet-2026` | Potentiel de croissance des partis, élection québécoise 2026 (panel de Marc-André Bodet) | 2026-10–auj. | politique, sondages, recherche | moyen | valide |
 | `proj-panel-clustering-pdc` | panel-clustering-pdc |  | politique, techno | faible | valide |
 | `proj-environics-pse` | Rapports Environics PSE |  | sondages | faible | valide_lot |
 | `proj-environics-support-democracy` | Analyses Environics Support for Democracy (sites Quarto) |  | sondages, politique, recherche | moyen | valide |
@@ -152,8 +154,11 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-modelisation-predictive` | Modélisation prédictive |  | methode | avance / avance | valide |
 | `comp-inference-causale` | Inférence causale |  | methode | avance / avance | valide |
 | `comp-ponderation` | Pondération de sondages |  | methode | avance / avance | valide |
+| `comp-donnees-syndiquees` | Données syndiquées et d'enquêtes multiclients (Vividata, Focus Canada) |  | donnees | intermediaire / intermediaire | valide |
+| `comp-optimisation` | Optimisation sous contraintes (programmation linéaire en nombres entiers, optimisation bornée) |  | methode | intermediaire / avance | a_confirmer |
 | `comp-classes-latentes` | Analyse de classes latentes (LCA) |  | methode | intermediaire / avance | valide |
 | `comp-analyse-conjointe` | Analyse conjointe |  | methode | intermediaire / intermediaire | valide |
+| `comp-recherche-qualitative` | Recherche qualitative (entretiens) |  | methode | debutant / debutant | valide |
 | `comp-analyse-factorielle` | Analyse factorielle |  | methode | avance / avance | valide |
 | `comp-segmentation` | Segmentation (clustering) |  | methode | avance / avance | valide |
 | `comp-analyse-reseaux` | Analyse de réseaux dyadiques |  | methode | intermediaire / avance | valide |
@@ -170,6 +175,8 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-azure` | Azure (AI Search, OpenAI, Container Apps, Service Bus, Blob, Entra ID, Static Web Apps) |  | cloud | intermediaire / avance | valide |
 | `comp-iac` | Infrastructure en code (SST) |  | cloud | notions / intermediaire | valide |
 | `comp-typescript-web` | Web (TypeScript, React, Vite, Astro) |  | web | debutant / avance | valide |
+| `comp-analyse-sous-groupes` | Comparaison des résultats entre groupes de répondants (genre, âge, etc.) |  | methode | avance / avance | valide |
+| `comp-streamlit` | Streamlit (tableaux de bord Python) |  | web | intermediaire / avance | valide |
 | `comp-api-backend` | API et backend (FastAPI, DuckDB, Docker) |  | web | notions / avance | valide |
 | `comp-ci` | CI et pipelines planifiés (GitHub Actions) |  | outil | intermediaire / avance | valide |
 | `comp-etl-pipelines` | Pipelines de données (ETL) |  | donnees | avance / expert | valide |

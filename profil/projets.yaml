@@ -66,6 +66,21 @@
   poids: moyen
   validation: valide
 
+- id: proj-panel-bodet-2026
+  titre: Potentiel de croissance des partis, élection québécoise 2026 (panel de Marc-André Bodet)
+  cadre: recherche  # bénévole, données fournies par Marc-André Bodet (Université Laval)
+  description: "Panel en 3 vagues (févr., mai, sept.-oct. 2026 ; 3 090 répondants). Plancher et plafond par parti × région × vague, à partir de l'IRC du mémoire. Simulation Monte Carlo au niveau du répondant ; incertitude α calibrée (c = 2), sensibilité selon l'horizon c(h) = exp(k √h), k = 0,35. Modèle de tendance bayésien en Stan (marches aléatoires mensuelles, effets maison par firme) sur les sondages publiés 2022-2026. Prior CES 2025 sur les pentes sociodémo. Modèle bêta multiniveau + MRP essayé puis écarté. Texte prévu pour Options politiques, puis comparaison au résultat du 5 oct. 2026."
+  techno: ["R", "Stan", "simulation Monte Carlo", "MRP"]
+  periode: {debut: 2026-10, fin: null}
+  role: responsable  # seul
+  paye: false  # bénévole
+  statut: actif  # en cours
+  montrable: non  # rien de publié ; texte Options politiques à venir
+  preuves: ["~/code/analyse_sondage_bodet"]
+  facettes: [politique, sondages, recherche]
+  poids: moyen
+  validation: valide
+
 - id: proj-panel-clustering-pdc
   titre: panel-clustering-pdc
   cadre: TROU  # CLESSN × Opubliq
@@ -229,7 +244,7 @@
   realisations:
     - "USA 2024 : responsable du modèle. Conception du sondage pilote, modèle de régression ordinale, mises à jour pendant la campagne, outil Shiny interne pour tester le modèle en équipe."
     - "Élections précédentes (fédérale 2021, Québec) : impliqué, mais pas responsable du modèle."
-    - "USA 2024 : séries temporelles pour bâtir des priors de vote par code postal, intégrés au modèle ; ARIMA selon le souvenir d'Hubert (dit le 2026-10-28)."
+    - "USA 2024 : séries temporelles pour bâtir des priors de vote par code postal, intégrés au modèle ; avec ARIMA (dit le 2026-10-28, confirmé le 2026-11-02)."
   techno: ["R", "Shiny", "Python"]  # Python : intégration du modèle prédictif dans l'app (dit par Hubert le 2026-10-27)
   role: responsable  # du modèle pour USA 2024 seulement
   attention: "Ne pas présenter Hubert comme créateur de Datagotchi. Formulation juste : responsable du modèle pour l'élection américaine de 2024, en partenariat avec Léger."

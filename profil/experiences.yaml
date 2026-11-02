@@ -87,7 +87,7 @@
     - "Mené seul : questionnaires SurveyJS, collecte postale avec code QR (push-to-web)."
     - "En assistance à Alexandre : revue méthodologique, pondération, rapport."
     - "Présentation des résultats au client."
-    - "Liste des organismes communautaires du territoire : scraping du 211qc.ca (~2 461 organismes pour Montréal-Est, requests + BeautifulSoup) et de la carte en santé mentale, filtres géographiques, filtre de pertinence et classement par secteur par LLM, enrichissement des coordonnées (repo contrat_medaillon_ciuss/liste_organismes)."
+    - "Liste des organismes communautaires du territoire : scraping du 211qc.ca (~2 461 organismes pour Montréal-Est, requests + BeautifulSoup) et de la carte en santé mentale, filtres géographiques, filtre de pertinence et classement par secteur par LLM, enrichissement des coordonnées (repo contrat_medaillon_ciuss/liste_organismes). Territoire : l'Est de l'île, dont Mercier–Hochelaga-Maisonneuve (dit par Hubert le 2026-11-02)."
     - "Une première version de la plateforme de sondages en libre-service a été développée dans ce mandat et sert encore chez Médaillon (voir proj-medaillon-plateforme)."
   ampleur: "Plus de 6 000 commentaires d'usagers et de la population, et plus de 1 100 commentaires d'organismes communautaires recueillis (selon l'entente de phase 2)."
   suite: "Phase 2 (entente de service de septembre 2026, client : Comité des usagers d'établissement, Santé Québec Est-de-l'Île-de-Montréal) : exploitation des commentaires de la phase 1 par groupe de services, consultation web et sur place sur la connaissance des responsabilités des usagers, infographies, et instauration d'un panel web continu d'usagers (collecte de courriels). Côté Opubliq : ajout de fonctions de panel à la plateforme. Fait en consultation sur heures perso. Entente pas encore signée (signature prévue fin oct. 2026)."
@@ -125,7 +125,7 @@
   montrable: public
   preuves: [pub-environics-tech-emploi, pub-substack-who-wants-children]
   poids: fort
-  notes: "Temps partiel, charge variable : ne pas présenter comme un emploi à temps plein. Relation en cours depuis janvier 2025."
+  notes: "Temps partiel, charge variable : ne pas présenter comme un emploi à temps plein. Relation en cours depuis janvier 2025, par contrats ponctuels ; les 4 projets (Kids, PSE, Support for Democracy, Technology and Jobs) sont terminés : en parler au passé (dit par Hubert le 2026-10-29)."
   validation: valide
 
 - id: exp-repensons-levis-2025
@@ -391,6 +391,26 @@
   facettes: [recherche, politique]
   poids: faible
   validation: valide_lot
+
+- id: exp-drainvac-marketing
+  titre: Stagiaire en marketing
+  organisation: Drainvac International
+  type: stage  # « contrat en alternance » selon LinkedIn
+  periode: {debut: 2018-11, fin: 2020-03}
+  regime: temps_partiel  # TROU : à confirmer (alternance pendant le cégep)
+  remunere: TROU
+  au_nom: employeur
+  role: contributeur
+  realisations:
+    - "Rédaction d'articles et remodelage du site web pour en améliorer la visibilité."
+    - "Création d'une page pilier (master landing page) pour le référencement (SEO) ; formation suivie en SEO."
+    - "Mesure de la performance du site avec Google Analytics (bases seulement, selon Hubert le 2026-11-02)."
+    - "Plan de communication de l'événement portes ouvertes ; démarchage téléphonique de partenaires ; entrée de données."
+  facettes: [techno]
+  competences: [comp-google-analytics]
+  notes: "Source : profil LinkedIn collé par Hubert (2026-11-02). Utile pour une offre en marketing numérique ou en contenu web."
+  poids: faible
+  validation: valide
 
 - id: exp-metro-commis
   titre: Commis d'épicerie

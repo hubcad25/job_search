@@ -87,7 +87,7 @@
   categorie: methode
   niveau_sans_ia: intermediaire
   niveau_avec_ia: avance
-  preuves: [proj-repensons-levis-plateforme, form-maitrise-ulaval, proj-nhl-matchups]
+  preuves: [proj-repensons-levis-plateforme, form-maitrise-ulaval, proj-nhl-matchups, proj-panel-bodet-2026]
   validation: valide
 
 - id: comp-series-temporelles
@@ -96,7 +96,7 @@
   niveau_sans_ia: intermediaire  # à confirmer
   niveau_avec_ia: avance  # à confirmer
   preuves: [proj-datagotchi]
-  notes: "Priors de vote par code postal dans le modèle Datagotchi, élection américaine de 2024, probablement ARIMA (dit par Hubert le 2026-10-28). Au CV : « séries temporelles », sans affirmer ARIMA tant que le code n'est pas vérifié."
+  notes: "Priors de vote par code postal dans le modèle Datagotchi, élection américaine de 2024, avec ARIMA (dit par Hubert le 2026-10-28, ARIMA confirmé le 2026-11-02). Niveaux encore à confirmer."
   validation: a_confirmer
 
 - id: comp-modelisation-predictive
@@ -125,6 +125,24 @@
   preuves: [exp-medaillon-ciusss, exp-environics, exp-repensons-levis-2025]
   validation: valide
 
+- id: comp-donnees-syndiquees
+  nom: Données syndiquées et d'enquêtes multiclients (Vividata, Focus Canada)
+  categorie: donnees
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: intermediaire
+  preuves: [exp-environics]  # Focus Canada (Environics) ; Vividata exploré via la licence de l'Université Laval, dans ses temps libres
+  notes: "Vividata : distributions croisées avec des sondages politiques, projet personnel d'étudiant, sans livrable (dit par Hubert le 2026-11-02). Numeris et Nielsen : inconnus."
+  validation: valide
+
+- id: comp-optimisation
+  nom: Optimisation sous contraintes (programmation linéaire en nombres entiers, optimisation bornée)
+  categorie: methode
+  niveau_sans_ia: intermediaire  # à confirmer
+  niveau_avec_ia: avance  # à confirmer
+  preuves: [proj-pool-lp, pub-memoire]
+  notes: "pool-lp : PuLP + CBC, choix de 18 joueurs qui maximise les points projetés sous plafond salarial et limites par position, 5 profils de risque (~/code/hockey/pool-lp/code/02_draft_optimization/optimize_draft.py). Mémoire : optim L-BFGS-B pour trouver la position idéologique qui maximise le vote d'un parti, et meilleure réponse entre partis (~/code/memoire_pot_growth). Trouvé par recherche dans les repos le 2026-11-02."
+  validation: a_confirmer
+
 - id: comp-classes-latentes
   nom: Analyse de classes latentes (LCA)
   categorie: methode
@@ -139,6 +157,15 @@
   niveau_sans_ia: intermediaire
   niveau_avec_ia: intermediaire
   preuves: [exp-clessn, exp-repensons-levis-2025]  # CLESSN : conjointe Qualtrics ; Lévis : choix par paires (proche, pas une conjointe à attributs)
+  validation: valide
+
+- id: comp-recherche-qualitative
+  nom: Recherche qualitative (entretiens)
+  categorie: methode
+  niveau_sans_ia: debutant
+  niveau_avec_ia: debutant
+  preuves: [exp-opubliq, form-bac-eco-pol-ulaval]  # Opubliq : entretiens de l'étude de marché ; bac : cours de méthodologie qualitative (devis de recherche)
+  notes: "Bases acquises ; n'a jamais animé de groupe de discussion (confirmé par Hubert le 2026-11-02). Cours exact à confirmer."
   validation: valide
 
 - id: comp-analyse-factorielle
@@ -222,6 +249,7 @@
   niveau_sans_ia: intermediaire
   niveau_avec_ia: avance
   preuves: [proj-silicon-sampling]
+  notes: "Calcul GPU loué ou partagé : RunPod, Azure et Calcul Québec (dit par Hubert le 2026-11-02 ; projet exact sur Calcul Québec à préciser). Sert de preuve pour une exigence HPC."
   validation: valide
 
 - id: comp-agents-llm
@@ -274,6 +302,25 @@
   niveau_sans_ia: debutant
   niveau_avec_ia: avance
   preuves: [proj-medaillon-plateforme, proj-site-opubliq, proj-nhl-matchups, proj-panel-clustering-pdc, proj-poches-souverainistes]
+  notes: "React dans une vingtaine de repos (~/code, ~/opubliq/repos) ; jamais Vue ni Angular (vérifié le 2026-11-02). Ne défend pas son code React en direct sans IA ; le réviserait avant une entrevue qui l'exige."
+  validation: valide
+
+- id: comp-analyse-sous-groupes
+  nom: Comparaison des résultats entre groupes de répondants (genre, âge, etc.)
+  categorie: methode
+  niveau_sans_ia: avance
+  niveau_avec_ia: avance
+  preuves: []
+  notes: "Fait dans ses analyses de sondage en général (confirmé par Hubert le 2026-11-02). Sert à couvrir une exigence ADS+ sans prétendre à la démarche formelle ADS+. Niveau déduit de la pratique courante, à ajuster au besoin."
+  validation: valide
+
+- id: comp-streamlit
+  nom: Streamlit (tableaux de bord Python)
+  categorie: web
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: avance
+  preuves: []
+  notes: "Dit par Hubert le 2026-11-02 (outil de tableaux de bord ; niveaux confirmés le même jour). Vérifié dans ~/code : hockey/sundogs (app multipage), dice_distribution, experimenting_google_earth_api (streamlit_dashboard.py), hockey/elo_rating_teams. Projets perso, pas encore dans projets.yaml."
   validation: valide
 
 - id: comp-api-backend
@@ -421,5 +468,5 @@
   categorie: outil
   niveau_sans_ia: notions
   niveau_avec_ia: notions
-  preuves: []  # déclaré par Hubert ; aucun projet livré
+  preuves: [exp-drainvac-marketing]  # usage de base chez Drainvac (2018-2020)
   validation: valide
