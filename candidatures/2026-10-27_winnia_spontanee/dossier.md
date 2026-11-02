@@ -48,3 +48,10 @@ Vérifié le 2026-10-28 · Facette : sport · Concurrent d'Opubliq : non
 - https://podscan.fm/e/ep_y7q4r8mkv7a6jzpn
 - https://www.linkedin.com/in/jeanmichelarseneau/
 - https://theorg.com/org/globalia/org-chart/jean-michel-arseneau
+
+## Mise à jour du 2026-11-02 (site lu via son code JavaScript, https://winnia.com/fr/company)
+- Courriel de JM Arseneau confirmé : jarseneau@winnia.com (responsable de la vie privée). Autre cofondateur : Jonathan Moquin (Globalia, HEC, MIT Sloan).
+- Agents : Insights & Exécution (recommandations quotidiennes), Ventes flash, Renouvellement (risque de désabonnement), Upsell, Nettoyage de données (appariement CRM-POS-billetterie), Orchestration, Classement (LLM), Rédaction, Design.
+- Valeurs IA : transparence (pas de boîtes noires), confidentialité dès la conception, humain dans la boucle. Données hébergées au Canada, Loi 25.
+- Valeurs d'équipe : succès d'équipe, « depth chart » (compétences transversales), pas de verbiage corporatif.
+- Ligues : MLB, MiLB, LCH, USL, LHJMQ, CEBL.
