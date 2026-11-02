@@ -53,6 +53,7 @@ Statut : version 1, 2026-10-24. À ajuster après les premières candidatures.
 
 ## Lettre de présentation
 
+- **Obligatoire : partir de `cv/lettre_modele.typ`**, le gabarit tiré de la lettre exo BI. Les règles ci-dessous expliquent ce gabarit ; elles ne remplacent pas la copie.
 - 1 page, 3 ou 4 paragraphes courts, adressée à une personne si possible (sinon « Madame, Monsieur » ; pas de bloc destinataire pour un PDF déposé dans un formulaire).
 - Exemples de référence : la lettre Teamworks d'Hubert (Google Drive, `coverletter-teamworks`) ; pour le ton, la lettre Alto ; **pour la structure, les écarts et la personnalité, la lettre exo BI** (`candidatures/2026-10-28_exo_conseiller-intelligence-affaires/lettre.typ`, jugée la meilleure par Hubert le 2026-11-02).
 1. **Qui je suis et ce que j'apporte** : années d'expérience, spécialité, ce que j'apporte au poste. Ne jamais ouvrir en résumant l'offre (« Votre offre décrit… ») ni sur une actualité prise pour elle-même.

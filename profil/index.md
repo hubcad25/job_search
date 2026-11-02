@@ -155,7 +155,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-inference-causale` | Inférence causale |  | methode | avance / avance | valide |
 | `comp-ponderation` | Pondération de sondages |  | methode | avance / avance | valide |
 | `comp-donnees-syndiquees` | Données syndiquées et d'enquêtes multiclients (Vividata, Focus Canada) |  | donnees | intermediaire / intermediaire | valide |
-| `comp-optimisation` | Optimisation sous contraintes (programmation linéaire en nombres entiers, optimisation bornée) |  | methode | intermediaire / avance | a_confirmer |
+| `comp-optimisation` | Optimisation sous contraintes (programmation linéaire en nombres entiers, optimisation bornée) |  | methode | intermediaire / avance | valide |
 | `comp-classes-latentes` | Analyse de classes latentes (LCA) |  | methode | intermediaire / avance | valide |
 | `comp-analyse-conjointe` | Analyse conjointe |  | methode | intermediaire / intermediaire | valide |
 | `comp-recherche-qualitative` | Recherche qualitative (entretiens) |  | methode | debutant / debutant | valide |

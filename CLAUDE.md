@@ -11,7 +11,7 @@ Tout document pour un employeur (CV, lettre, réponse) prend ses faits dans `pro
 
 ## CV et candidatures
 
-- Mise en page : `cv/modele.typ` (Typst). Bases par facette : `cv/base_<facette>.typ`. Lettre : `cv/lettre_modele.typ` (aucun `#trou` rouge à l'envoi).
+- Mise en page : `cv/modele.typ` (Typst). Bases par facette : `cv/base_<facette>.typ`. Lettre : **toujours copier `cv/lettre_modele.typ`** (gabarit tiré de la lettre exo BI) et remplacer ses `#trou`. Jamais de lettre écrite de zéro ni à partir d'une autre candidature. Garder les 4 paragraphes, leur ordre et leurs phrases-cadres. Aucun `#trou` rouge à l'envoi.
 - Une candidature = un dossier `candidatures/<date>_<org>_<poste>/` avec `offre.md`, `cv.typ`, `lettre.typ`.
 - On corrige toujours le `.typ`, puis `typst compile` ; jamais le PDF.
 - Avant l'envoi : lancer l'agent `reviewer-candidature` sur le dossier ; il écrit `revue.md`.

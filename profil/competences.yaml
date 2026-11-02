@@ -137,11 +137,11 @@
 - id: comp-optimisation
   nom: Optimisation sous contraintes (programmation linéaire en nombres entiers, optimisation bornée)
   categorie: methode
-  niveau_sans_ia: intermediaire  # à confirmer
-  niveau_avec_ia: avance  # à confirmer
+  niveau_sans_ia: intermediaire  # confirmé par Hubert le 2026-11-02
+  niveau_avec_ia: avance  # confirmé par Hubert le 2026-11-02
   preuves: [proj-pool-lp, pub-memoire]
   notes: "pool-lp : PuLP + CBC, choix de 18 joueurs qui maximise les points projetés sous plafond salarial et limites par position, 5 profils de risque (~/code/hockey/pool-lp/code/02_draft_optimization/optimize_draft.py). Mémoire : optim L-BFGS-B pour trouver la position idéologique qui maximise le vote d'un parti, et meilleure réponse entre partis (~/code/memoire_pot_growth). Trouvé par recherche dans les repos le 2026-11-02."
-  validation: a_confirmer
+  validation: valide
 
 - id: comp-classes-latentes
   nom: Analyse de classes latentes (LCA)

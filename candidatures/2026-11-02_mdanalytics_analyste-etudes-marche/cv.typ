@@ -53,7 +53,7 @@
 
 // form-maitrise-ulaval (pas « mention Excellent »), form-eiom, form-bac-eco-pol-ulaval
 #entree(titre: "Maîtrise en science politique (avec mémoire)", org: "Université Laval", dates: "2026")
-#entree(titre: "Diplôme de l’École interdisciplinaire outils et méthodes", org: "Université Laval", lieu: "Causalité et expérimentation~; science des données", dates: "2023")
+#entree(titre: "Diplôme de l’École interdisciplinaire outils et méthodes", org: "Université Laval", lieu: "Causalité et expérimentation ; science des données", dates: "2023")
 #entree(titre: "Baccalauréat intégré en économie et politique", org: "Université Laval", lieu: "Mention d’honneur de la Faculté des sciences sociales", dates: "2023")
 
 #section[Compétences]
