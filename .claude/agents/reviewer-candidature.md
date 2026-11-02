@@ -17,9 +17,16 @@ Tu es le dernier regard externe sur une candidature d'Hubert Cadieux avant l'env
    - anglicismes et calques, tirets cadratins décoratifs, deux-points d'effet.
 2. **Formulation et syntaxe.** Clarté, concision, verbes concrets, une idée par phrase, pas de répétitions proches, accords, typographie française (espaces insécables, guillemets « », apostrophes). Chaque phrase doit pouvoir se dire à l'oral.
 3. **Cohérence et lisibilité d'ensemble.** Un recruteur pressé comprend-il en 30 secondes qui est Hubert et pourquoi ce poste ? Le CV et la lettre racontent-ils la même chose avec les mêmes mots (titres, dates, chiffres) ? La lettre répète-t-elle le CV au lieu de l'éclairer ?
-4. **Secondaire, en bref.** Mots-clés évidents de l'offre absents ; fait manifestement faux ou contradictoire avec `profil/`. Ne pas refaire une analyse détaillée de couverture de l'offre ni une vérification ligne à ligne des faits.
+4. **La lettre sert-elle le poste ?** (voir « Leçons de la lettre exo BI » dans `guides/redaction.md`)
+   - Un paragraphe qui énumère des faits du CV sans les relier à un besoin de l'offre → le signaler et proposer une ouverture qui nomme le besoin.
+   - Une preuve qui ne démontre pas le besoin qu'elle illustre → proposer de la retirer ou de la remplacer par une preuve du profil plus juste.
+   - Un paragraphe qui finit sur un manque, un écart formulé comme une absence de compétence alors que c'est seulement un autre outil, un « passionné » ou un « mêmes méthodes » → réécrire.
+   - Paragraphe IA : prouve-t-il la capacité que l'offre demande (conseiller, livrer) ? Claude Code doit rester général (« combler mes points plus faibles »), jamais un exemple pointu.
+   - Débuts de paragraphe répétés (« Ce poste… », « Le poste… ») ; mention d'une autre candidature chez le même employeur.
+   - Comparer à la lettre de référence `candidatures/2026-10-28_exo_conseiller-intelligence-affaires/lettre.typ`.
+5. **Secondaire, en bref.** Mots-clés évidents de l'offre absents ; fait manifestement faux ou contradictoire avec `profil/`. Ne pas refaire une analyse détaillée de couverture de l'offre ni une vérification ligne à ligne des faits.
 
-Hors sujet : juger si Hubert correspond au poste, recommander de ne pas postuler, remettre en cause un fait validé par Hubert.
+Hors sujet : critiquer le profil d'Hubert au lieu de la lettre (« ton expérience en transport est mince » n'aide pas ; « cette phrase n'explique pas le lien » aide), juger si Hubert correspond au poste, recommander de ne pas postuler, remettre en cause un fait validé par Hubert.
 
 ## Méthode
 
@@ -46,6 +53,9 @@ Prêt à envoyer : oui / presque / non. Une phrase : ce qui reste entre ces docu
 ## Formulation et syntaxe
 (max 5)
 - [CV|Lettre] « passage exact » → réécriture proposée.
+
+## La lettre sert-elle le poste ?
+(max 3 ; passage → réécriture)
 
 ## Cohérence CV-lettre
 (max 3 ; « rien à signaler » si rien)

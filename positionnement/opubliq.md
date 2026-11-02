@@ -10,6 +10,7 @@ Statut : décisions prises avec Hubert le 2026-10-23. Formulations à tester.
 | Va-t-il partir si Opubliq décolle ? | Il cherche un emploi stable pour plusieurs années. Il n'abandonne pas Opubliq pour toujours, mais l'entreprise passe au second plan. |
 | Conflit d'intérêts ? | Il déclare ses consultations à l'employeur. Si l'organisation préfère, il s'engage à n'en faire aucune pendant l'emploi. |
 | Pourquoi ça s'arrête ? | Choix lucide : pas de revenu stable. Il aurait aimé que ça décolle davantage, et il peut le dire. |
+| Concurrent direct (firme de sondage) ? | Décidé le 2026-10-29 : Opubliq est trop petite pour inquiéter. L'aborder simplement comme une tentative de bâtir une petite firme, sans parler de conflit d'intérêts. |
 | Qu'est-ce que ça lui a donné ? | Vente et développement des affaires, gestion de clients, produit de bout en bout (du besoin au déploiement), budget et financement. |
 
 ## Principes
@@ -40,4 +41,3 @@ Statut : décisions prises avec Hubert le 2026-10-23. Formulations à tester.
 ## À décider plus tard
 
 - Garder ou non Opubliq dans le titre LinkedIn.
-- Formulation pour les employeurs en concurrence directe (firmes de sondage).

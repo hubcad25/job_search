@@ -26,6 +26,8 @@ Statut : décisions prises avec Hubert le 2026-10-23.
 
 « Je ne délègue pas ma réflexion à l'IA : je spécifie, je découpe, je délègue l'exécution, puis je révise et je teste tout. Ça me permet de livrer seul ce qui demandait une petite équipe. »
 
+Angle dans la lettre (Hubert, 2026-11-02) : l'IA sert à **combler ses points plus faibles** (surtout le développement logiciel) et à livrer seul. Rester général ; jamais un exemple pointu du type « j'écris mes requêtes SQL avec Claude Code ».
+
 ## Résultats saillants à citer (rapport vibecoding)
 
 - 956 échanges analysés sur 94 sessions de travail réelles.
