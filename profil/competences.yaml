@@ -233,6 +233,7 @@
   niveau_sans_ia: avance
   niveau_avec_ia: expert
   preuves: [exp-vdq-stage, proj-atlas-opubliq, pub-prompting-the-machine, pub-gpt-party, pub-wp-checkbox-textbox, pub-chapitre-livre-outils-ia]
+  notes: "Codification des réponses ouvertes de sondages : faite plusieurs fois, toujours par LLM et jamais à la main, qu'Hubert ne juge pas la bonne façon de faire (dit par Hubert le 2026-11-02)."
   validation: valide
 
 - id: comp-rag-recherche-semantique
@@ -411,6 +412,7 @@
   niveau_sans_ia: presque bilingue
   niveau_avec_ia: sans_objet
   preuves: [exp-environics, exp-ta-icpsr, pub-environics-tech-emploi]
+  notes: "« Bilingue » accepté au CV quand l'offre l'exige (Hubert, 2026-11-02, avec hésitation) ; sinon « anglais courant »."
   validation: valide
 
 - id: comp-environnement-linux
