@@ -1,7 +1,7 @@
 - id: form-maitrise-ulaval
   titre: Maîtrise en science politique (avec mémoire)
   organisation: Université Laval
-  periode: {debut: 2024, fin: 2026}
+  periode: {debut: 2024, fin: 2026-01}
   statut: terminee
   depot: 2026-01  # dépôt début janvier 2026 ; diplôme au 1er semestre 2026
   details:

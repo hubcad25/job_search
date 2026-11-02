@@ -6,7 +6,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 
 | id | titre | période | facettes | poids (compétences : sans IA / avec IA) | validation |
 |---|---|---|---|---|---|
-| `form-maitrise-ulaval` | Maîtrise en science politique (avec mémoire) — Université Laval | 2024–2026 | politique, recherche, techno | fort | valide |
+| `form-maitrise-ulaval` | Maîtrise en science politique (avec mémoire) — Université Laval | 2024–2026-01 | politique, recherche, techno | fort | valide |
 | `form-bac-eco-pol-ulaval` | Baccalauréat intégré en économie et politique — Université Laval | 2020–2023 | politique, sondages | moyen | valide |
 | `form-eiom` | Diplôme de l'École interdisciplinaire outils et méthodes (EIOM) — ESEI, Université Laval | 2022–2023 | techno, recherche | moyen | valide |
 | `form-vip-voa` | Programmes VIP et VOA — Entrepreneuriat ULaval | 2024–2024 | techno | faible | valide_lot |
