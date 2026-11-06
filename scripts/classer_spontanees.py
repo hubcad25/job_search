@@ -103,11 +103,11 @@ def main():
             if cid:
                 statut[ids[0]] = next(c["statut"] for c in cands if c["candidature_id"] == cid)
         texte = lire_dossier(cid)
-        tailles_req = [TAILLE_REQ.get(orgs[i]["taille"]) for i in ids if orgs[i]["taille"]]
+        tailles_req = [TAILLE_REQ.get(orgs.get(i, {}).get("taille")) for i in ids if orgs.get(i, {}).get("taille")]
         taille = TAILLE_DOSSIER.get(slug_dossier(cid)) or next((t for t in tailles_req if t), "inconnue")
-        if taille == "inconnue" and any(orgs[i]["type"] == "public" for i in ids):
+        if taille == "inconnue" and any(orgs.get(i, {}).get("type") == "public" for i in ids):
             taille = "inconnue"  # organisme public sans effectif connu : ne pas deviner
-        notes_orgs = " ".join(orgs[i]["notes"] for i in ids)
+        notes_orgs = " ".join(orgs.get(i, {}).get("notes", "") for i in ids)
         n = {
             "taille": NOTE_TAILLE[taille],
             "adequation": NOTE_FACETTE.get(r["facette"], 1),

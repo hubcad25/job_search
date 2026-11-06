@@ -16,7 +16,7 @@ Advanis Inc.,sondages,garder,moyenne,3,3,1,2,2,11,a_faire,2026-10-27_advanis_spo
 IVADO LABS,techno,surveiller,moyenne,3,2,3,0,3,11,sans_dossier,,https://ivado.ca,non
 MILA - Institut québécois d'intelligence artificielle,techno,surveiller,moyenne,3,2,3,0,3,11,sans_dossier,,https://mila.quebec,non
 Montréal Analytique inc.,techno,garder,moyenne,3,2,3,2,1,11,a_faire,2026-10-27_montreal-analytique_spontanee,,incertain
-Autorité régionale de transport métropolitain,public,garder,inconnue,1,2,3,2,3,11,a_faire,2026-10-27_artm_spontanee,https://www.artm.quebec,non
+Autorité régionale de transport métropolitain,public,garder,inconnue,1,2,3,2,3,11,envoyee,2026-10-27_artm_spontanee,https://www.artm.quebec,non
 Centre de recherche informatique de Montréal,techno,garder,inconnue,1,2,3,2,3,11,a_faire,2026-10-27_crim_spontanee,https://www.crim.ca,non
 Winnia,sport,garder,inconnue,1,2,3,2,3,11,a_faire,2026-10-27_winnia_spontanee,https://winnia.com,non
 IPSOS CORP.,sondages,garder,tres_grande,0,3,3,2,3,11,a_faire,2026-10-27_ipsos_spontanee,https://www.ipsos.com/en-ca,oui
@@ -33,7 +33,7 @@ Cabinet de relations publiques NATIONAL inc.,politique,garder,grande,2,1,1,2,3,9
 LES SERVICES NOVASPACE CANADA INC.,sondages,surveiller,moyenne,3,3,1,0,1,8,sans_dossier,,,incertain
 NUMERA ANALYTIQUE INC.,sondages,surveiller,moyenne,3,3,1,0,1,8,sans_dossier,,,oui
 RYAN AFFAIRES PUBLIQUES INC.,politique,garder,moyenne,3,1,0,2,2,8,a_faire,2026-10-27_ryanap_spontanee,https://www.ryanap.com/,non
-Vote Pour Ça,public,garder,inconnue,1,2,0,3,2,8,envoyee,2026-11-02_votepour_spontanee,https://votepour.ca,non
+"Yannick Dufresne (Université Laval, CLESSN)",politique,garder,inconnue,1,1,3,2,1,8,sans_dossier,,,non
 Institut national de santé publique du Québec,public,garder,tres_grande,0,2,3,2,1,8,a_faire,2026-10-27_inspq_spontanee,https://www.inspq.qc.ca,non
 Loto-Québec (Mise-o-jeu),sport,garder,tres_grande,0,2,1,2,3,8,a_faire,2026-10-27_loto-quebec_spontanee,https://www.loto-quebec.com,non
 COPTICOM Inc.,politique,garder,moyenne,3,1,0,2,1,7,a_faire,2026-10-27_copticom_spontanee,https://copticom.ca,non
@@ -48,6 +48,7 @@ PARTI QUÉBÉCOIS,politique,surveiller,moyenne,3,1,0,0,1,5,sans_dossier,,https:/
 Québec solidaire,politique,surveiller,moyenne,3,1,0,0,1,5,sans_dossier,,https://quebecsolidaire.net/,non
 Agence de mobilité durable de Montréal,public,surveiller,inconnue,1,2,1,0,1,5,sans_dossier,,https://agencemobilitedurable.ca,non
 BIXI Montréal,public,surveiller,inconnue,1,2,1,0,1,5,sans_dossier,,https://bixi.com,non
+Marc-André Bodet (Université Laval),politique,garder,inconnue,1,1,0,2,1,5,sans_dossier,,,non
 Conseillers Affaires Publiques Inc.,politique,surveiller,inconnue,1,1,1,0,1,4,sans_dossier,,,non
 Echo Strategies,politique,surveiller,inconnue,1,1,1,0,1,4,sans_dossier,,,non
 Focus Affaires Publiques,politique,surveiller,inconnue,1,1,1,0,1,4,sans_dossier,,,non
@@ -57,5 +58,6 @@ Boléro Stratégies,politique,surveiller,inconnue,1,1,0,0,1,3,sans_dossier,,,non
 CAP Conseillers Affaires Publiques Inc.,politique,surveiller,inconnue,1,1,0,0,1,3,sans_dossier,,,non
 Perspectives Stratégies Gouvernementales,politique,surveiller,inconnue,1,1,0,0,1,3,sans_dossier,,,non
 CROP INC.,sondages,garder,moyenne,3,3,3,2,3,14,envoyee,2026-10-27_crop_spontanee,https://www.crop.ca,oui
+Vote Pour Ça,public,garder,inconnue,1,2,0,3,2,8,envoyee,2026-11-02_votepour_spontanee,https://votepour.ca,non
 Société de transport de Montréal (STM),public,garder,tres_grande,0,2,3,0,3,8,envoyee,2026-10-28_stm_analyste-donnees-analytique,https://www.stm.info/,non
 TACT,politique,garder,inconnue,1,1,0,0,1,3,envoyee,2026-10-27_tact_spontanee,https://www.tact-conseil.com/,non

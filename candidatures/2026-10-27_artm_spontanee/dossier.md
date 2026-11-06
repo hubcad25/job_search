@@ -1,6 +1,6 @@
 # Autorité régionale de transport métropolitain (ARTM)
 
-Vérifié le 2026-10-28 · Facette : public · Concurrent d'Opubliq : non
+Vérifié le 2026-10-28, revérifié le 2026-11-06 (Chrome : artm.quebec/emplois, LinkedIn) · Facette : public · Concurrent d'Opubliq : non
 
 > Limite de la vérification : les sites artm.quebec et quebec.ca n'étaient pas accessibles depuis la session (réseau bloqué). Les faits ci-dessous viennent des extraits de résultats de recherche ; les pages n'ont pas été ouvertes. Relire chaque URL avant de s'en servir dans une lettre.
 
@@ -17,6 +17,15 @@ Vérifié le 2026-10-28 · Facette : public · Concurrent d'Opubliq : non
 - 2026-09-01 au 2026-12-16 — Collecte de l'enquête métropolitaine 2026 Perspectives mobilité, avec le MTMD ; invitation postale vers un questionnaire web (https://www.artm.quebec/wp-content/uploads/2026/07/FAQ_Enquete-metro-2026-Perspectives-mobilite_FR.pdf ; https://www.quebec.ca/nouvelles/actualites/details/vos-deplacements-comptent-repondez-a-lenquete-perspectives-mobilite-72360). L'énoncé de confidentialité 2026 nomme Polytechnique Montréal (volet ménages) et Fino conseil (volet universitaire) (https://www.artm.quebec/wp-content/uploads/2026/07/Enonce-confidentialite_Enquetes-Pm-FR_R01_2026.pdf).
 - Date introuvable (2026) — Le transport adapté passe à un modèle métropolitain, la STL en premier (https://www.quebec.ca/nouvelles/actualites/details/le-transport-adapte-evolue-vers-un-modele-metropolitain-72535).
 - 2026-10-28 au 30 — L'ARTM accueille le UITP North America Forum à Montréal (https://www.uitp.org/events/uitp-north-america-forum-2026/).
+
+## Mise à jour 2026-11-06 (vérifié dans Chrome)
+- **Pôle de données en mobilité lancé il y a environ une semaine** (donnees.artm.quebec, sur CKAN). Hamzeh l'a annoncé sur LinkedIn et remercie Philippe Fortin (conseiller principal, gouvernance des données) et Marie-Hélène Leroux. Meilleure accroche du moment.
+- Hamzeh a aussi participé à un panel sur la confiance envers les algorithmes en mobilité (article The Conversation, il y a environ un mois).
+- Canal spontané officiel : **recrutement@artm.quebec** (page https://www.artm.quebec/emplois/).
+- Offres ouvertes : comptabilité, relations publiques, coordination de projet, développeur full stack, technicien en planification. Aucune en données.
+- Le stage « Valorisation des données de mobilité » est expiré sur Jobillico.
+- Hamzeh : profil LinkedIn https://www.linkedin.com/in/hamzeh-alizadeh-87368369/ (Director, Data and Analytics, ARTM ; Polytechnique ; 2e degré). Relations en commun : Pierre Barrieau (Gris Orange), Salman Kimiagari (Université Laval, FSA), Jérémie Bolduc.
+- Mathilde Moliner : titre LinkedIn « Conseillère, Mobilité des personnes » (pas « Données et mobilité ») ; employeur non affiché ; 3e degré. Contact secondaire, à ne pas viser.
 
 ## Pourquoi les contacter
 - L'enquête 2026 est en pleine collecte (invitation postale vers le web) et l'équipe Données et analytique cherche à valider les données collectées (offre de stage ci-dessous). Hubert a mené seul une collecte postale avec code QR vers un questionnaire web, et participé à la pondération et à la revue méthodologique (`exp-medaillon-ciusss`, `comp-ponderation`, `comp-programmation-sondages`).
@@ -35,15 +44,15 @@ Vérifié le 2026-10-28 · Facette : public · Concurrent d'Opubliq : non
 ## À qui écrire
 | Nom | Titre | Pourquoi lui/elle | Courriel ou LinkedIn | Source |
 |---|---|---|---|---|
-| Hamzeh Alizadeh | Directeur, Données et analytique (titre 2023 : Directeur, Recherches et valorisation des données) | Dirige l'équipe qui mène Perspectives mobilité | Courriel introuvable ; LinkedIn à chercher (à vérifier) | https://www.ssatp.org/sites/default/files/document/Autorit%C3%A9sAfricainesHamzehAlizadeh.pdf ; https://www.newswire.ca/fr/news-releases/-r-e-p-r-i-s-e-avis-aux-medias-enquete-metropolitaine-2023-perspectives-mobilite-faits-saillants--848517677.html |
+| Hamzeh Alizadeh | Directeur, Données et analytique (confirmé sur LinkedIn le 2026-11-06) | Dirige l'équipe qui mène Perspectives mobilité et le Pôle de données | Courriel introuvable ; LinkedIn https://www.linkedin.com/in/hamzeh-alizadeh-87368369/ (2e degré) | https://www.ssatp.org/sites/default/files/document/Autorit%C3%A9sAfricainesHamzehAlizadeh.pdf ; https://www.newswire.ca/fr/news-releases/-r-e-p-r-i-s-e-avis-aux-medias-enquete-metropolitaine-2023-perspectives-mobilite-faits-saillants--848517677.html |
 | Mathilde Moliner | Conseillère, Données et mobilité (selon un profil LinkedIn vu en recherche) | Membre de l'équipe ; pourrait être la superviseure du stage | URL LinkedIn non relevée (à vérifier) | résultat de recherche seulement, à vérifier |
-| Ressources humaines ARTM | — | Dernier recours | Introuvable | — |
+| Ressources humaines ARTM | — | Canal spontané officiel | recrutement@artm.quebec | https://www.artm.quebec/emplois/ |
 
 Ordre : Hamzeh Alizadeh d'abord (LinkedIn, message court), puis RH si une offre s'ouvre.
 
 ## Offres et carrières
-- Page carrières : introuvable (artm.quebec inaccessible pendant la vérification).
-- « Stagiaire, valorisation des données de mobilité » (Données et analytique, enquête Perspectives mobilité 2026 ; validation des données collectées) ; date de publication introuvable. Stage pour étudiant en fin de parcours, donc pas pour Hubert, mais confirme le besoin (https://www.jobillico.com/fr/offre-d-emploi/autorite-regionale-de-transport-metropol.zKpxBy/stagiaire-valorisation-des-donnees-de-mobilite-/17327615).
+- Page carrières : https://www.artm.quebec/emplois/ (aucun poste en données le 2026-11-06).
+- « Stagiaire, valorisation des données de mobilité » (Données et analytique, enquête Perspectives mobilité 2026 ; validation des données collectées) ; offre expirée au 2026-11-06. Stage pour étudiant en fin de parcours, donc pas pour Hubert, mais confirme le besoin (https://www.jobillico.com/fr/offre-d-emploi/autorite-regionale-de-transport-metropol.zKpxBy/stagiaire-valorisation-des-donnees-de-mobilite-/17327615).
 - Indeed affiche 3 offres « ARTM » au Québec, titres et dates non relevés (https://emplois.ca.indeed.com/q-artm-l-province-de-qu%C3%A9bec-emplois.html).
 - Aucune offre de poste permanent en données confirmée à ce jour.
 
