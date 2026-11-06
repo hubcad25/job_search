@@ -154,6 +154,7 @@ Généré par `scripts/build_profil_index.py`. Ne pas éditer à la main.
 | `comp-modelisation-predictive` | Modélisation prédictive |  | methode | avance / avance | valide |
 | `comp-inference-causale` | Inférence causale |  | methode | avance / avance | valide |
 | `comp-ponderation` | Pondération de sondages |  | methode | avance / avance | valide |
+| `comp-imputation` | Imputation de données manquantes |  | methode | intermediaire / intermediaire | a_confirmer |
 | `comp-donnees-syndiquees` | Données syndiquées et d'enquêtes multiclients (Vividata, Focus Canada) |  | donnees | intermediaire / intermediaire | valide |
 | `comp-optimisation` | Optimisation sous contraintes (programmation linéaire en nombres entiers, optimisation bornée) |  | methode | intermediaire / avance | valide |
 | `comp-classes-latentes` | Analyse de classes latentes (LCA) |  | methode | intermediaire / avance | valide |

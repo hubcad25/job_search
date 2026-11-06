@@ -125,6 +125,15 @@
   preuves: [exp-medaillon-ciusss, exp-environics, exp-repensons-levis-2025]
   validation: valide
 
+- id: comp-imputation
+  nom: Imputation de données manquantes
+  categorie: methode
+  niveau_sans_ia: intermediaire
+  niveau_avec_ia: intermediaire
+  preuves: [pub-memoire]
+  notes: "Dit par Hubert le 2026-11-03 : en a fait dans son mémoire, connaît les différentes approches. Vérifié dans ~/code/memoire_pot_growth : imputation multiple par équations chaînées (mice, appariement par moyenne prédictive, m = 5) dans la vignette exploratoire explo_bloc/making_clusters.qmd ; imputation par la médiane avant les analyses factorielles. Absente du texte final du mémoire. Niveau intermédiaire déduit, à ajuster par Hubert."
+  validation: a_confirmer
+
 - id: comp-donnees-syndiquees
   nom: Données syndiquées et d'enquêtes multiclients (Vividata, Focus Canada)
   categorie: donnees
